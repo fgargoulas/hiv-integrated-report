@@ -1,0 +1,80 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 818,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": false
+    },
+    {
+      "resistance_id": 821,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L63P"
+        ],
+        "rt": [
+          "K65R",
+          "K103N",
+          "V108I"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 820,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "D30N",
+          "M36I",
+          "L63P",
+          "A71V",
+          "N88D",
+          "L90M"
+        ],
+        "rt": [
+          "D67N",
+          "K70R",
+          "A98G",
+          "V118I",
+          "M184V",
+          "T215F",
+          "K219Q"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 819,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "R41L",
+          "D60E",
+          "L63P",
+          "V77I"
+        ],
+        "rt": [
+          "K103N",
+          "M184V",
+          "L210W",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

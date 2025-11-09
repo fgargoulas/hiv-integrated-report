@@ -1,0 +1,74 @@
+[
+  {
+    "drug_id": 100,
+    "start_date": "2011-12-01",
+    "end_date": "2016-10-27",
+    "end_reason": {
+      "code": "PHEND_SIMP",
+      "description": "Simplificación"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EFAVIRENZ/ EMTRICITABINA/ TENOFOVIR DF.",
+      "targa_short": "EFV+FTC+TDF",
+      "brand": "ATRIPLA",
+      "presentation": "600/200/245",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR06"
+    }
+  },
+  {
+    "drug_id": 179,
+    "start_date": "2021-05-21",
+    "end_date": null,
+    "end_reason": {
+      "code": null,
+      "description": null
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1COMP DE",
+      "frecuency": "DE"
+    },
+    "info": {
+      "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+      "targa_short": "BIC+FTC+TAF",
+      "brand": "BIKTARVY",
+      "presentation": "50/200/25",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR20"
+    }
+  },
+  {
+    "drug_id": 169,
+    "start_date": "2016-10-27",
+    "end_date": "2021-05-20",
+    "end_reason": {
+      "code": "PHEND_SIMP",
+      "description": "Simplificación"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 comp/día",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "ELVITEGRAVIR/ COBICISTAT/ EMTRICITABINA/ TENOFOVIR ALAF.",
+      "targa_short": "EVG+COBI+FTC+TAF",
+      "brand": "GENVOYA",
+      "presentation": "150/150/200/10",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR18"
+    }
+  }
+]

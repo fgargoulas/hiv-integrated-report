@@ -1,0 +1,115 @@
+{
+  "pat_data": {
+    "id": "2526",
+    "mrn": "2526",
+    "national_health_id": "IB-ES-972526",
+    "full_name": "Carlos Sánchez Sánchez",
+    "sex": "M",
+    "birth_date": "1976-05-16",
+    "hiv_type": "UNK",
+    "hiv_date": "2006-01-23",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_HOMO",
+    "first_visit_date": "2006-05-05"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 1107,
+      "test_date": "2006-05-03",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10V",
+          "K20I",
+          "M36I"
+        ],
+        "rt": [
+          "M41L",
+          "A98G",
+          "M184V",
+          "T215F"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1109,
+      "test_date": "2011-07-05",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": false
+    },
+    {
+      "resistance_id": 1108,
+      "test_date": "2007-03-06",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L63P",
+          "V77I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 100,
+      "start_date": "2011-07-05",
+      "end_date": "2017-09-27",
+      "end_reason": {
+        "code": "PHEND_RESTRAN",
+        "description": "Cambio Residencia"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EFAVIRENZ/ EMTRICITABINA/ TENOFOVIR DF.",
+        "targa_short": "EFV+FTC+TDF",
+        "brand": "ATRIPLA",
+        "presentation": "600/200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR06"
+      }
+    },
+    {
+      "drug_id": 181,
+      "start_date": "2020-01-01",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/día",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR/ LAMIVUDINA",
+        "targa_short": "DGT+3TC",
+        "brand": "DOVATO",
+        "presentation": "50/300",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2419",
+  "mrn": "2419",
+  "national_health_id": "IB-ES-782419",
+  "full_name": "Juan García Pérez",
+  "sex": "M",
+  "birth_date": "1973-03-06",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2013-06-14",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "2013-06-14"
+}

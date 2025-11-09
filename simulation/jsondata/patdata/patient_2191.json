@@ -1,0 +1,16 @@
+{
+  "id": "2191",
+  "mrn": "2191",
+  "national_health_id": "IB-ES-122191",
+  "full_name": "Ana Fernández Martínez",
+  "sex": "F",
+  "birth_date": "1966-07-22",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "1990-07-23",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "1990-07-23"
+}

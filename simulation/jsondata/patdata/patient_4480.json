@@ -1,0 +1,16 @@
+{
+  "id": "4480",
+  "mrn": "4480",
+  "national_health_id": "IB-ES-824480",
+  "full_name": "Laura Sánchez Ramírez",
+  "sex": "F",
+  "birth_date": "1973-01-24",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "1992-07-19",
+  "hla_b57": {
+    "value": "POS",
+    "date": "2001-12-09"
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "1994-02-04"
+}

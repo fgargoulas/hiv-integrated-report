@@ -1,0 +1,144 @@
+{
+  "pat_data": {
+    "id": "5006",
+    "mrn": "5006",
+    "national_health_id": "IB-ES-435006",
+    "full_name": "Carlos Ramírez Pérez",
+    "sex": "M",
+    "birth_date": "1980-12-19",
+    "hiv_type": "HIV1-AF",
+    "hiv_date": "2019-06-05",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_UNKNOWN",
+    "first_visit_date": "2019-07-23"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 2529,
+      "test_date": "2019-07-04",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2530,
+      "test_date": "2019-09-18",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 173,
+      "start_date": "2019-07-12",
+      "end_date": "2019-08-06",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1CP/d",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "FTC+TAF",
+        "brand": "DESCOVY",
+        "presentation": "200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR17"
+      }
+    },
+    {
+      "drug_id": 166,
+      "start_date": "2019-08-06",
+      "end_date": "2022-03-30",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": null
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR/ ABACAVIR/ LAMIVUDINA",
+        "targa_short": "DTG+ABV+3TC",
+        "brand": "TRIUMEQ",
+        "presentation": "50/600/300",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR13"
+      }
+    },
+    {
+      "drug_id": 181,
+      "start_date": "2022-03-31",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR/ LAMIVUDINA",
+        "targa_short": "DGT+3TC",
+        "brand": "DOVATO",
+        "presentation": "50/300",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR25"
+      }
+    },
+    {
+      "drug_id": 161,
+      "start_date": "2019-07-12",
+      "end_date": "2019-08-06",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 50,
+        "other": "50mg/24h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR",
+        "targa_short": "DOL",
+        "brand": "TIVICAY",
+        "presentation": "50,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ03"
+      }
+    }
+  ]
+}

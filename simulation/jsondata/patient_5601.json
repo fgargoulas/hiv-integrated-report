@@ -1,0 +1,565 @@
+{
+  "pat_data": {
+    "id": "5601",
+    "mrn": "5601",
+    "national_health_id": "IB-ES-655601",
+    "full_name": "Ana Fernández Sánchez",
+    "sex": "F",
+    "birth_date": "1973-01-05",
+    "hiv_type": "HIV1-B",
+    "hiv_date": "2008-10-25",
+    "hla_b57": {
+      "value": "NEG",
+      "date": "2009-12-17"
+    },
+    "riskgroup": "RG_HETERO",
+    "first_visit_date": "2008-10-27"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 2837,
+      "test_date": "2012-07-12",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "I13V",
+          "M36I",
+          "I62V",
+          "V77I"
+        ],
+        "rt": [
+          "K103N",
+          "M184V"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2842,
+      "test_date": "2011-08-11",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "I13V",
+          "M36I",
+          "I62V",
+          "V77I"
+        ],
+        "rt": [
+          "K101P",
+          "K103N",
+          "M184V"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2841,
+      "test_date": "2009-01-15",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "M36I",
+          "I62V",
+          "V77I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2840,
+      "test_date": "2020-07-09",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": false
+    },
+    {
+      "resistance_id": 2839,
+      "test_date": "2015-05-13",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": false
+    },
+    {
+      "resistance_id": 2838,
+      "test_date": "2014-04-30",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": false
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 179,
+      "start_date": "2020-07-09",
+      "end_date": "2023-04-13",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    },
+    {
+      "drug_id": 179,
+      "start_date": "2024-01-26",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    },
+    {
+      "drug_id": 179,
+      "start_date": "2020-07-10",
+      "end_date": "2020-08-31",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": null,
+        "other": null,
+        "frecuency": null
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    },
+    {
+      "drug_id": 27,
+      "start_date": "2011-03-15",
+      "end_date": "2011-08-11",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 2,
+        "messure": null,
+        "other": "2 Cap./12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "LOPINAVIR/ RITONAVIR",
+        "targa_short": "LPV+RTV",
+        "brand": "KALETRA",
+        "presentation": "200/50",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AR10"
+      }
+    },
+    {
+      "drug_id": 94,
+      "start_date": "2011-03-15",
+      "end_date": "2011-08-11",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp./12 h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RALTEGRAVIR ",
+        "targa_short": "RAL",
+        "brand": "ISSENTRESS",
+        "presentation": "400,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ01"
+      }
+    },
+    {
+      "drug_id": 31,
+      "start_date": "2011-03-15",
+      "end_date": "2011-08-11",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp/24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "TENOFOVIR",
+        "targa_short": "TDF",
+        "brand": "VIREAD",
+        "presentation": "300,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF07"
+      }
+    },
+    {
+      "drug_id": 86,
+      "start_date": "2008-11-13",
+      "end_date": "2009-04-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/TENOFOVIR",
+        "targa_short": "FTC+TDF",
+        "brand": "TRUVADA",
+        "presentation": "200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR03"
+      }
+    },
+    {
+      "drug_id": 7,
+      "start_date": "2008-11-13",
+      "end_date": "2009-04-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EFAVIRENZ",
+        "targa_short": "EFV",
+        "brand": "SUSTIVA",
+        "presentation": "600,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AG03"
+      }
+    },
+    {
+      "drug_id": 166,
+      "start_date": "2016-05-19",
+      "end_date": "2017-01-18",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/día",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR/ ABACAVIR/ LAMIVUDINA",
+        "targa_short": "DTG+ABV+3TC",
+        "brand": "TRIUMEQ",
+        "presentation": "50/600/300",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR13"
+      }
+    },
+    {
+      "drug_id": 64,
+      "start_date": "2016-02-11",
+      "end_date": "2017-01-18",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./12 h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 144,
+      "start_date": "2016-02-11",
+      "end_date": "2017-01-18",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/12 h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "DARUNAVIR",
+        "targa_short": "DRV",
+        "brand": "PREZISTA",
+        "presentation": "600,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE10"
+      }
+    },
+    {
+      "drug_id": 161,
+      "start_date": "2015-05-29",
+      "end_date": "2016-05-19",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 50,
+        "other": "50mg/24h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR",
+        "targa_short": "DOL",
+        "brand": "TIVICAY",
+        "presentation": "50,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ03"
+      }
+    },
+    {
+      "drug_id": 153,
+      "start_date": "2014-11-11",
+      "end_date": "2016-02-11",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/24 h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DARUNAVIR",
+        "targa_short": "DRV",
+        "brand": "PREZISTA",
+        "presentation": "800,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE10"
+      }
+    },
+    {
+      "drug_id": 64,
+      "start_date": "2014-04-22",
+      "end_date": "2016-02-11",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 139,
+      "start_date": "2014-04-22",
+      "end_date": "2014-11-11",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 COMP DIARIO",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ATAZANAVIR",
+        "targa_short": "ATZ",
+        "brand": "REYATAZ",
+        "presentation": "300,0",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AE08"
+      }
+    },
+    {
+      "drug_id": 148,
+      "start_date": "2014-04-22",
+      "end_date": "2015-05-29",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": " 1 comp/diario ",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/ TENOFOVIR DISOPROXIL/ RILPIVIRINA",
+        "targa_short": "FTC+TDF+RPV",
+        "brand": "EVIPLERA ",
+        "presentation": "200/245/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR08"
+      }
+    },
+    {
+      "drug_id": 94,
+      "start_date": "2012-08-02",
+      "end_date": "2013-07-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp./12 h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RALTEGRAVIR ",
+        "targa_short": "RAL",
+        "brand": "ISSENTRESS",
+        "presentation": "400,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ01"
+      }
+    },
+    {
+      "drug_id": 86,
+      "start_date": "2012-08-02",
+      "end_date": "2013-07-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/TENOFOVIR",
+        "targa_short": "FTC+TDF",
+        "brand": "TRUVADA",
+        "presentation": "200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR03"
+      }
+    },
+    {
+      "drug_id": 27,
+      "start_date": "2012-08-02",
+      "end_date": "2013-07-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 2,
+        "messure": null,
+        "other": "2 Comp./12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "LOPINAVIR/ RITONAVIR",
+        "targa_short": "LPV+RTV",
+        "brand": "KALETRA",
+        "presentation": "200/50",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AR10"
+      }
+    }
+  ]
+}

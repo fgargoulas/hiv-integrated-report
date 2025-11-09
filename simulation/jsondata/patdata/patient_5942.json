@@ -1,0 +1,16 @@
+{
+  "id": "5942",
+  "mrn": "5942",
+  "national_health_id": "IB-ES-965942",
+  "full_name": "Juan Fernández Sánchez",
+  "sex": "M",
+  "birth_date": "1970-12-31",
+  "hiv_type": "UNK",
+  "hiv_date": "2003-07-25",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2005-10-14"
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2003-08-04"
+}

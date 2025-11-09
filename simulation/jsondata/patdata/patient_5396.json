@@ -1,0 +1,16 @@
+{
+  "id": "5396",
+  "mrn": "5396",
+  "national_health_id": "IB-ES-735396",
+  "full_name": "Miguel García García",
+  "sex": "M",
+  "birth_date": "1962-02-04",
+  "hiv_type": "UNK",
+  "hiv_date": "2001-12-06",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "1992-03-27"
+}

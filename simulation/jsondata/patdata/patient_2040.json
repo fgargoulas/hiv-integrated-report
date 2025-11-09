@@ -1,0 +1,16 @@
+{
+  "id": "2040",
+  "mrn": "2040",
+  "national_health_id": "IB-ES-912040",
+  "full_name": "Miguel Ramírez Fernández",
+  "sex": "M",
+  "birth_date": "1969-07-22",
+  "hiv_type": "UNK",
+  "hiv_date": "1993-01-06",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2003-03-16"
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "1993-02-26"
+}

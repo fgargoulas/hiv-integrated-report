@@ -1,0 +1,72 @@
+{
+  "pat_data": {
+    "id": "3191",
+    "mrn": "3191",
+    "national_health_id": "IB-ES-883191",
+    "full_name": "Luis Pérez Sánchez",
+    "sex": "M",
+    "birth_date": "1992-02-18",
+    "hiv_type": "HIV1-B",
+    "hiv_date": "2021-01-19",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_HOMO",
+    "first_visit_date": "2021-01-06"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 1531,
+      "test_date": "2021-03-04",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "Y181C"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1532,
+      "test_date": "2021-06-25",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "Y181C"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 179,
+      "start_date": "2021-03-04",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/día",
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 27,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "A71Y",
+          "L90M"
+        ],
+        "rt": [
+          "M41L",
+          "L210W",
+          "T215D"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 28,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L90M"
+        ],
+        "rt": [
+          "M41L",
+          "L210W",
+          "T215D"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

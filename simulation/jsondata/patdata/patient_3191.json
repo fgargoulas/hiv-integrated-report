@@ -1,0 +1,16 @@
+{
+  "id": "3191",
+  "mrn": "3191",
+  "national_health_id": "IB-ES-883191",
+  "full_name": "Luis Pérez Sánchez",
+  "sex": "M",
+  "birth_date": "1992-02-18",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2021-01-19",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2021-01-06"
+}

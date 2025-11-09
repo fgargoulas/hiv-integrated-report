@@ -1,0 +1,30 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 2529,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2530,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

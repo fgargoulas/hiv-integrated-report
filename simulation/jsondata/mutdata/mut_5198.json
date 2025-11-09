@@ -1,0 +1,44 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 13938,
+      "test_date": "2021-10-28",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "E138A"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2628,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "G16E",
+          "V77I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2627,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "V77I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

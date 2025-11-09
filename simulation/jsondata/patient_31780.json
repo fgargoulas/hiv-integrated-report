@@ -1,0 +1,74 @@
+{
+  "pat_data": {
+    "id": "31780",
+    "mrn": "31780",
+    "national_health_id": "IB-ES-4931780",
+    "full_name": "Luis Sánchez Sánchez",
+    "sex": "M",
+    "birth_date": "1980-02-22",
+    "hiv_type": "HIV1-CRF02",
+    "hiv_date": "2021-10-10",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_UNKNOWN",
+    "first_visit_date": "2021-10-10"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 15695,
+      "test_date": "2021-09-24",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "E138A",
+          "V179E"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 15772,
+      "test_date": "2021-10-08",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "E138A",
+          "V179E"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 179,
+      "start_date": "2021-10-07",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    }
+  ]
+}

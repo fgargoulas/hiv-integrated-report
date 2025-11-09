@@ -1,0 +1,16 @@
+{
+  "id": "2315",
+  "mrn": "2315",
+  "national_health_id": "IB-ES-972315",
+  "full_name": "José Martínez García",
+  "sex": "M",
+  "birth_date": "1968-08-10",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2001-02-25",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "2003-03-09"
+}

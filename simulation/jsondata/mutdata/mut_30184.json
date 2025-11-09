@@ -1,0 +1,36 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 15396,
+      "test_date": "2022-09-02",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "M41L",
+          "E44A",
+          "V106I",
+          "L210W",
+          "T215D"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 21595,
+      "test_date": "2025-04-06",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "M41L",
+          "E44A",
+          "V106I"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

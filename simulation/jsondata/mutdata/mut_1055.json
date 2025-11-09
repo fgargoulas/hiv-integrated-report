@@ -1,0 +1,113 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 415,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "K20I",
+          "L24I",
+          "M36I",
+          "M46I",
+          "I54A",
+          "L63P",
+          "A71V"
+        ],
+        "rt": [
+          "K65N",
+          "D67N",
+          "V118I",
+          "Y188L",
+          "L210W",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 418,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "K20R",
+          "M36I",
+          "M46I",
+          "I54V",
+          "L63P",
+          "H69D",
+          "A71V",
+          "V82T",
+          "I84V"
+        ],
+        "rt": [
+          "M41L",
+          "D67N",
+          "M184V",
+          "Y188L",
+          "L210W",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 417,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "K20R",
+          "M36I",
+          "M46I",
+          "A71V",
+          "V82T",
+          "I84V"
+        ],
+        "rt": [
+          "M41L",
+          "D67N",
+          "F116Y",
+          "M184V",
+          "Y188L",
+          "L210W",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 416,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "L24I",
+          "M36I",
+          "M46I",
+          "L63P",
+          "H69D",
+          "A71V",
+          "V82A"
+        ],
+        "rt": [
+          "M41L",
+          "D67N",
+          "M184V",
+          "L210W",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

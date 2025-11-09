@@ -1,0 +1,130 @@
+{
+  "pat_data": {
+    "id": "3311",
+    "mrn": "3311",
+    "national_health_id": "IB-ES-533311",
+    "full_name": "Carlos López Fernández",
+    "sex": "M",
+    "birth_date": "1949-09-06",
+    "hiv_type": "UNK",
+    "hiv_date": "2008-05-27",
+    "hla_b57": {
+      "value": "NEG",
+      "date": null
+    },
+    "riskgroup": "RG_HOMO",
+    "first_visit_date": "2008-06-17"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 1589,
+      "test_date": "2008-07-29",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "I13V",
+          "M36I",
+          "I62V"
+        ],
+        "rt": [
+          "M184V"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1590,
+      "test_date": "2009-03-17",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "I13V",
+          "M36I",
+          "I62V"
+        ],
+        "rt": [
+          "M184V"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 100,
+      "start_date": "2011-12-01",
+      "end_date": "2016-10-27",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EFAVIRENZ/ EMTRICITABINA/ TENOFOVIR DF.",
+        "targa_short": "EFV+FTC+TDF",
+        "brand": "ATRIPLA",
+        "presentation": "600/200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR06"
+      }
+    },
+    {
+      "drug_id": 179,
+      "start_date": "2021-05-21",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1COMP DE",
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    },
+    {
+      "drug_id": 169,
+      "start_date": "2016-10-27",
+      "end_date": "2021-05-20",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/día",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ELVITEGRAVIR/ COBICISTAT/ EMTRICITABINA/ TENOFOVIR ALAF.",
+        "targa_short": "EVG+COBI+FTC+TAF",
+        "brand": "GENVOYA",
+        "presentation": "150/150/200/10",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR18"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "5918",
+  "mrn": "5918",
+  "national_health_id": "IB-ES-125918",
+  "full_name": "Carlos García Pérez",
+  "sex": "M",
+  "birth_date": "1968-12-25",
+  "hiv_type": "UNK",
+  "hiv_date": "2008-05-05",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2008-05-29"
+}

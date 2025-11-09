@@ -1,0 +1,37 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 15793,
+      "test_date": "2020-11-17",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "M41L",
+          "K65R",
+          "L100I",
+          "K103N",
+          "M184V",
+          "P225H"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 15627,
+      "test_date": "2020-07-17",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "M41L",
+          "L100I",
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

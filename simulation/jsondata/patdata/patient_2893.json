@@ -1,0 +1,16 @@
+{
+  "id": "2893",
+  "mrn": "2893",
+  "national_health_id": "IB-ES-462893",
+  "full_name": "Carlos Ramírez Pérez",
+  "sex": "M",
+  "birth_date": "1960-12-29",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "1997-01-22",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "1997-03-11"
+}

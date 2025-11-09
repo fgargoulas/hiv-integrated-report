@@ -1,0 +1,34 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 21402,
+      "test_date": "2017-11-13",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "M46V",
+          "G48A"
+        ],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 21496,
+      "test_date": "2025-01-31",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

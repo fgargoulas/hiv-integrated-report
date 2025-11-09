@@ -1,0 +1,16 @@
+{
+  "id": "2925",
+  "mrn": "2925",
+  "national_health_id": "IB-ES-542925",
+  "full_name": "Elena Martínez Ramírez",
+  "sex": "F",
+  "birth_date": "1970-09-10",
+  "hiv_type": "UNK",
+  "hiv_date": "2010-10-19",
+  "hla_b57": {
+    "value": "POS",
+    "date": "2012-05-18"
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "2010-10-19"
+}

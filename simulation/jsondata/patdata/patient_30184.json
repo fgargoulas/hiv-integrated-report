@@ -1,0 +1,16 @@
+{
+  "id": "30184",
+  "mrn": "30184",
+  "national_health_id": "IB-ES-4630184",
+  "full_name": "Carmen Sánchez Ramírez",
+  "sex": "F",
+  "birth_date": "1997-10-31",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2022-07-08",
+  "hla_b57": {
+    "value": "NEG",
+    "date": null
+  },
+  "riskgroup": "RG_FILIAL",
+  "first_visit_date": "2022-07-08"
+}

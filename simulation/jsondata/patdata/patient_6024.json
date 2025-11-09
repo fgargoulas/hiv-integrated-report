@@ -1,0 +1,16 @@
+{
+  "id": "6024",
+  "mrn": "6024",
+  "national_health_id": "IB-ES-916024",
+  "full_name": "Carlos García García",
+  "sex": "M",
+  "birth_date": "1958-03-11",
+  "hiv_type": "UNK",
+  "hiv_date": "1985-07-18",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "1992-02-12"
+}

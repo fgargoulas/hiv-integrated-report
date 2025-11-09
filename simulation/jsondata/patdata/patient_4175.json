@@ -1,0 +1,16 @@
+{
+  "id": "4175",
+  "mrn": "4175",
+  "national_health_id": "IB-ES-704175",
+  "full_name": "Sara López Fernández",
+  "sex": "F",
+  "birth_date": "1971-10-01",
+  "hiv_type": "UNK",
+  "hiv_date": "1997-06-17",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "2003-03-01"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "drug_id": 179,
+    "start_date": "2021-03-04",
+    "end_date": null,
+    "end_reason": {
+      "code": null,
+      "description": null
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 comp/día",
+      "frecuency": "DE"
+    },
+    "info": {
+      "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+      "targa_short": "BIC+FTC+TAF",
+      "brand": "BIKTARVY",
+      "presentation": "50/200/25",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR20"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "2334",
+  "mrn": "2334",
+  "national_health_id": "IB-ES-782334",
+  "full_name": "Antonio Martínez Sánchez",
+  "sex": "M",
+  "birth_date": "1962-10-18",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "1987-08-11",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2015-02-15"
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2010-07-10"
+}

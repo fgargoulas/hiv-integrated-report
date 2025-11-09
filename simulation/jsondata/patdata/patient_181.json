@@ -1,0 +1,16 @@
+{
+  "id": "181",
+  "mrn": "181",
+  "national_health_id": "IB-ES-38181",
+  "full_name": "Antonio Pérez López",
+  "sex": "M",
+  "birth_date": "1971-11-19",
+  "hiv_type": "HIV1-F1",
+  "hiv_date": "2011-07-01",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2013-09-04"
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2011-06-24"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "5601",
+  "mrn": "5601",
+  "national_health_id": "IB-ES-655601",
+  "full_name": "Ana Fernández Sánchez",
+  "sex": "F",
+  "birth_date": "1973-01-05",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2008-10-25",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2009-12-17"
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "2008-10-27"
+}

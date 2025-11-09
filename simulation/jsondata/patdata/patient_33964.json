@@ -1,0 +1,16 @@
+{
+  "id": "33964",
+  "mrn": "33964",
+  "national_health_id": "IB-ES-5433964",
+  "full_name": "Juan Ramírez Fernández",
+  "sex": "M",
+  "birth_date": "1977-04-06",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2022-04-06",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2023-06-07"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "3039",
+  "mrn": "3039",
+  "national_health_id": "IB-ES-123039",
+  "full_name": "Juan García Fernández",
+  "sex": "M",
+  "birth_date": "1970-11-16",
+  "hiv_type": "UNK",
+  "hiv_date": "2006-10-15",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2007-01-20"
+}

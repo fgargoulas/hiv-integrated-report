@@ -1,0 +1,246 @@
+{
+  "pat_data": {
+    "id": "31695",
+    "mrn": "31695",
+    "national_health_id": "IB-ES-5431695",
+    "full_name": "Antonio López Ramírez",
+    "sex": "M",
+    "birth_date": "1959-01-31",
+    "hiv_type": "HIV1-B",
+    "hiv_date": "2021-05-02",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_UNKNOWN",
+    "first_visit_date": "2021-05-02"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 21215,
+      "test_date": "1999-03-23",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "I13V",
+          "L24I",
+          "M36L",
+          "M46I",
+          "I54V",
+          "Q58E",
+          "I62V",
+          "L63P",
+          "L76V",
+          "V82I",
+          "I84V",
+          "L89I"
+        ],
+        "rt": [
+          "M41L",
+          "D67N",
+          "K70R",
+          "L74I",
+          "K103H",
+          "Y115F",
+          "V179I",
+          "M184V",
+          "T215I",
+          "K219Q"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 21216,
+      "test_date": "1999-03-24",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10V",
+          "L24I",
+          "V32I",
+          "L33F",
+          "M36I",
+          "M46I",
+          "I54V",
+          "Q58E",
+          "I62V",
+          "L63P",
+          "H69I",
+          "L76V",
+          "V82I",
+          "I84V",
+          "I85V",
+          "L89I"
+        ],
+        "rt": [
+          "M41L",
+          "D67N",
+          "T69N",
+          "K70R",
+          "L74V",
+          "K103H",
+          "V179I",
+          "Y181C",
+          "M184V",
+          "Y188C",
+          "T215Y",
+          "K219Q"
+        ],
+        "in": [
+          "V151I",
+          "N155H"
+        ]
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 64,
+      "start_date": "2021-04-16",
+      "end_date": "2024-08-29",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 100,
+        "other": null,
+        "frecuency": "DECE"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 167,
+      "start_date": "2024-01-18",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DARUNAVIR/ COBICISTAT",
+        "targa_short": "DRV+COBI",
+        "brand": "REZOLSTA",
+        "presentation": "800/150",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR14"
+      }
+    },
+    {
+      "drug_id": 179,
+      "start_date": "2024-01-18",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    },
+    {
+      "drug_id": 161,
+      "start_date": "2021-04-16",
+      "end_date": "2024-08-29",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 50,
+        "other": null,
+        "frecuency": "DECE"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR",
+        "targa_short": "DOL",
+        "brand": "TIVICAY",
+        "presentation": "50,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ03"
+      }
+    },
+    {
+      "drug_id": 170,
+      "start_date": "2021-04-16",
+      "end_date": "2024-08-29",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "FTC+TAF",
+        "brand": "DESCOVY",
+        "presentation": "200/10",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR17"
+      }
+    },
+    {
+      "drug_id": 144,
+      "start_date": "2021-04-15",
+      "end_date": "2024-08-29",
+      "end_reason": {
+        "code": "PHEND_LOST",
+        "description": "Perdido Control"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 600,
+        "other": null,
+        "frecuency": "DECE"
+      },
+      "info": {
+        "text": "DARUNAVIR",
+        "targa_short": "DRV",
+        "brand": "PREZISTA",
+        "presentation": "600,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE10"
+      }
+    }
+  ]
+}

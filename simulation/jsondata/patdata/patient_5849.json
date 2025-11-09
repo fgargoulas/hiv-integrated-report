@@ -1,0 +1,16 @@
+{
+  "id": "5849",
+  "mrn": "5849",
+  "national_health_id": "IB-ES-425849",
+  "full_name": "José Martínez Ramírez",
+  "sex": "M",
+  "birth_date": "1963-07-20",
+  "hiv_type": "UNK",
+  "hiv_date": "1993-07-02",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2005-05-12"
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "1993-07-02"
+}

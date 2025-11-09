@@ -1,0 +1,16 @@
+{
+  "id": "1958",
+  "mrn": "1958",
+  "national_health_id": "IB-ES-911958",
+  "full_name": "Elena Pérez García",
+  "sex": "F",
+  "birth_date": "1974-04-19",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "1991-06-27",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2005-06-20"
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "1996-11-21"
+}

@@ -1,0 +1,120 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 3306,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "R41L",
+          "M46I",
+          "L63P",
+          "V77I",
+          "L90M"
+        ],
+        "rt": [
+          "D67N",
+          "K70R",
+          "K103N",
+          "T215Y",
+          "K219E"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 3310,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "L10I"
+        ],
+        "rt": [],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 3309,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "M46I",
+          "Q58E",
+          "L63P",
+          "G73T",
+          "V77I",
+          "I85V",
+          "L90M"
+        ],
+        "rt": [
+          "M41L",
+          "D67N",
+          "K70R",
+          "M184V",
+          "T215Y",
+          "K219E"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 3308,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "R41L",
+          "M46I",
+          "L63P",
+          "G73S",
+          "L90M"
+        ],
+        "rt": [
+          "D67N",
+          "K70R",
+          "L74V",
+          "K103N",
+          "T215Y",
+          "K219E"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 3307,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "R41L",
+          "M46L",
+          "L63P",
+          "G73S",
+          "V77I",
+          "L90M"
+        ],
+        "rt": [
+          "D67N",
+          "K70R",
+          "L74V",
+          "K103N",
+          "T215Y",
+          "K219E"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

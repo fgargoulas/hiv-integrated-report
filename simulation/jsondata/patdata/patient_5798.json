@@ -1,0 +1,16 @@
+{
+  "id": "5798",
+  "mrn": "5798",
+  "national_health_id": "IB-ES-435798",
+  "full_name": "Juan Martínez Pérez",
+  "sex": "M",
+  "birth_date": "1965-10-06",
+  "hiv_type": "HIV1-UNK",
+  "hiv_date": "1986-05-22",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "1989-02-03"
+}

@@ -1,0 +1,356 @@
+[
+  {
+    "patient_id": "40644",
+    "full_name": "Juan García Fernández",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "33964",
+    "full_name": "Juan Ramírez Fernández",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "32025",
+    "full_name": "David Ramírez Martínez",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "31780",
+    "full_name": "Luis Sánchez Sánchez",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "31695",
+    "full_name": "Antonio López Ramírez",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "30184",
+    "full_name": "Carmen Sánchez Ramírez",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "5918",
+    "full_name": "Carlos García Pérez",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "5851",
+    "full_name": "Carmen García Sánchez",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "3311",
+    "full_name": "Carlos López Fernández",
+    "case_type": "Caso Basal >3mut"
+  },
+  {
+    "patient_id": "3039",
+    "full_name": "Juan García Fernández",
+    "case_type": "Caso Basal >3mut"
+  },
+   {
+    "patient_id": "39204",
+    "full_name": "Carlos Martínez Martínez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "5198",
+    "full_name": "Antonio García Ramírez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "5006",
+    "full_name": "Carlos Ramírez Pérez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "4812",
+    "full_name": "María López Sánchez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "4774",
+    "full_name": "Elena López Pérez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "3823",
+    "full_name": "María López Sánchez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "3191",
+    "full_name": "Luis Pérez Sánchez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "2835",
+    "full_name": "Ana Martínez López",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "2526",
+    "full_name": "Carlos Sánchez Sánchez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "2419",
+    "full_name": "Juan García Pérez",
+    "case_type": "Caso Basal <=3mut"
+  },
+  {
+    "patient_id": "6052",
+    "full_name": "David Pérez Fernández",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "5601",
+    "full_name": "Ana Fernández Sánchez",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "5518",
+    "full_name": "Laura López Fernández",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "4867",
+    "full_name": "Antonio Martínez Pérez",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "4480",
+    "full_name": "Laura Sánchez Ramírez",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "4407",
+    "full_name": "Antonio Fernández Ramírez",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "3944",
+    "full_name": "Juan García López",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "3912",
+    "full_name": "Miguel Sánchez López",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "2494",
+    "full_name": "José García García",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "2334",
+    "full_name": "Antonio Martínez Sánchez",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "2241",
+    "full_name": "Antonio Sánchez Fernández",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "2084",
+    "full_name": "Miguel Martínez Fernández",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "1362",
+    "full_name": "David López Pérez",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "418",
+    "full_name": "Luis Martínez López",
+    "case_type": "Caso Complejo >3mut"
+  },
+  {
+    "patient_id": "5942",
+    "full_name": "Juan Fernández Sánchez",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "5896",
+    "full_name": "Juan García Fernández",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "5849",
+    "full_name": "José Martínez Ramírez",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "5583",
+    "full_name": "David García Ramírez",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "2925",
+    "full_name": "Elena Martínez Ramírez",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "2426",
+    "full_name": "Carmen Ramírez Pérez",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "2315",
+    "full_name": "José Martínez García",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "1867",
+    "full_name": "Antonio García Pérez",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "631",
+    "full_name": "Sara Martínez Martínez",
+    "case_type": "Caso Complejo <=3mut"
+  },
+  {
+    "patient_id": "181",
+    "full_name": "Antonio Pérez López",
+    "case_type": "Caso Complejo <=3mut"
+  },{
+    "patient_id": "6216",
+    "full_name": "Elena Sánchez López",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "6209",
+    "full_name": "José López Ramírez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "6024",
+    "full_name": "Carlos García García",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "5913",
+    "full_name": "Miguel Ramírez Sánchez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "5812",
+    "full_name": "Carmen López Martínez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "5798",
+    "full_name": "Juan Martínez Pérez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "5575",
+    "full_name": "Carmen López Martínez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "5396",
+    "full_name": "Miguel García García",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "5252",
+    "full_name": "Miguel López Ramírez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "4175",
+    "full_name": "Sara López Fernández",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "3935",
+    "full_name": "Miguel Ramírez Sánchez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "3676",
+    "full_name": "Ana García Martínez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "2923",
+    "full_name": "David Pérez Pérez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "2893",
+    "full_name": "Carlos Ramírez Pérez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "2469",
+    "full_name": "Lucía García López",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "2443",
+    "full_name": "Miguel Ramírez Fernández",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "2280",
+    "full_name": "Sara Martínez García",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "2191",
+    "full_name": "Ana Fernández Martínez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "2040",
+    "full_name": "Miguel Ramírez Fernández",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "1958",
+    "full_name": "Elena Pérez García",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "1570",
+    "full_name": "María López Fernández",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "1057",
+    "full_name": "David Fernández Fernández",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "1055",
+    "full_name": "Juan López Martínez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "860",
+    "full_name": "Ana García Pérez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "722",
+    "full_name": "Carmen Pérez García",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "600",
+    "full_name": "Lucía Martínez Pérez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  },
+  {
+    "patient_id": "76",
+    "full_name": "Luis Sánchez Sánchez",
+    "case_type": "Caso Complejo Fallo TARGA"
+  }
+]

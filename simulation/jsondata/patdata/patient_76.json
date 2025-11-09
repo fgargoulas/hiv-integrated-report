@@ -1,0 +1,16 @@
+{
+  "id": "76",
+  "mrn": "76",
+  "national_health_id": "IB-ES-7376",
+  "full_name": "Luis Sánchez Sánchez",
+  "sex": "M",
+  "birth_date": "1969-02-12",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2015-03-02",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2017-02-12"
+}

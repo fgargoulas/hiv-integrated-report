@@ -1,0 +1,410 @@
+[
+  {
+    "drug_id": 179,
+    "start_date": "2022-06-08",
+    "end_date": null,
+    "end_reason": {
+      "code": null,
+      "description": null
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": null,
+      "frecuency": "DE"
+    },
+    "info": {
+      "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+      "targa_short": "BIC+FTC+TAF",
+      "brand": "BIKTARVY",
+      "presentation": "50/200/25",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR20"
+    }
+  },
+  {
+    "drug_id": 94,
+    "start_date": "2018-10-10",
+    "end_date": "2018-12-05",
+    "end_reason": {
+      "code": "PHEND_MEDOTHER",
+      "description": "Criterio Médico OTRAS"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 comp./12 h.",
+      "frecuency": "C12H"
+    },
+    "info": {
+      "text": "RALTEGRAVIR ",
+      "targa_short": "RAL",
+      "brand": "ISSENTRESS",
+      "presentation": "400,0",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AJ01"
+    }
+  },
+  {
+    "drug_id": 85,
+    "start_date": "2018-10-10",
+    "end_date": "2018-12-05",
+    "end_reason": {
+      "code": "PHEND_MEDOTHER",
+      "description": "Criterio Médico OTRAS"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "ABACAVIR SULFATE/ LAMIVUDINA",
+      "targa_short": "ABC+3TC",
+      "brand": "KIVEXA",
+      "presentation": "600/300",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR02"
+    }
+  },
+  {
+    "drug_id": 178,
+    "start_date": "2018-09-13",
+    "end_date": "2018-10-10",
+    "end_reason": {
+      "code": "PHEND_MEDINTER",
+      "description": "Criterio Médico INTERACCIONES"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 comp/diario",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EMTRICITABINA/ RILPIVIRINA/ TENOFOVIR ALAF.",
+      "targa_short": "FTC+RPV+TAF",
+      "brand": "ODEFSEY",
+      "presentation": "200/25/25",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR19"
+    }
+  },
+  {
+    "drug_id": 177,
+    "start_date": "2018-07-17",
+    "end_date": "2018-08-16",
+    "end_reason": {
+      "code": "PHEND_ADVEF",
+      "description": "Efecto Secundario"
+    },
+    "dose_adm": {
+      "presentation": 2,
+      "messure": 1200,
+      "other": "2 comp. diarios",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "RALTEGRAVIR",
+      "targa_short": "RAL",
+      "brand": "ISSENTRESS",
+      "presentation": "600,0",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AJ01"
+    }
+  },
+  {
+    "drug_id": 85,
+    "start_date": "2018-05-03",
+    "end_date": "2018-08-16",
+    "end_reason": {
+      "code": "PHEND_ADVEF",
+      "description": "Efecto Secundario"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "ABACAVIR SULFATE/ LAMIVUDINA",
+      "targa_short": "ABC+3TC",
+      "brand": "KIVEXA",
+      "presentation": "600/300",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR02"
+    }
+  },
+  {
+    "drug_id": 94,
+    "start_date": "2018-05-03",
+    "end_date": "2018-07-17",
+    "end_reason": {
+      "code": "PHEND_SIMP",
+      "description": "Simplificación"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 comp./12 h.",
+      "frecuency": "C12H"
+    },
+    "info": {
+      "text": "RALTEGRAVIR ",
+      "targa_short": "RAL",
+      "brand": "ISSENTRESS",
+      "presentation": "400,0",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AJ01"
+    }
+  },
+  {
+    "drug_id": 169,
+    "start_date": "2016-12-01",
+    "end_date": "2018-05-03",
+    "end_reason": {
+      "code": "PHEND_MED",
+      "description": "Criterio Médico"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 comp/día",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "ELVITEGRAVIR/ COBICISTAT/ EMTRICITABINA/ TENOFOVIR ALAF.",
+      "targa_short": "EVG+COBI+FTC+TAF",
+      "brand": "GENVOYA",
+      "presentation": "150/150/200/10",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR18"
+    }
+  },
+  {
+    "drug_id": 166,
+    "start_date": "2016-08-11",
+    "end_date": "2016-12-01",
+    "end_reason": {
+      "code": "PHEND_ABAN",
+      "description": "Abandono"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 comp/día",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "DOLUTEGRAVIR/ ABACAVIR/ LAMIVUDINA",
+      "targa_short": "DTG+ABV+3TC",
+      "brand": "TRIUMEQ",
+      "presentation": "50/600/300",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR13"
+    }
+  },
+  {
+    "drug_id": 148,
+    "start_date": "2015-04-10",
+    "end_date": "2016-08-11",
+    "end_reason": {
+      "code": "PHEND_MED",
+      "description": "Criterio Médico"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": " 1 comp/diario ",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EMTRICITABINA/ TENOFOVIR DISOPROXIL/ RILPIVIRINA",
+      "targa_short": "FTC+TDF+RPV",
+      "brand": "EVIPLERA ",
+      "presentation": "200/245/25",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR08"
+    }
+  },
+  {
+    "drug_id": 100,
+    "start_date": "2011-10-10",
+    "end_date": "2015-04-10",
+    "end_reason": {
+      "code": "PHEND_MED",
+      "description": "Criterio Médico"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EFAVIRENZ/ EMTRICITABINA/ TENOFOVIR DF.",
+      "targa_short": "EFV+FTC+TDF",
+      "brand": "ATRIPLA",
+      "presentation": "600/200/245",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR06"
+    }
+  },
+  {
+    "drug_id": 7,
+    "start_date": "2011-10-10",
+    "end_date": "2011-11-22",
+    "end_reason": {
+      "code": "PHEND_MED",
+      "description": "Criterio Médico"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EFAVIRENZ",
+      "targa_short": "EFV",
+      "brand": "SUSTIVA",
+      "presentation": "600,0",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AG03"
+    }
+  },
+  {
+    "drug_id": 86,
+    "start_date": "2011-10-10",
+    "end_date": "2011-11-22",
+    "end_reason": {
+      "code": "PHEND_SIMP",
+      "description": "Simplificación"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EMTRICITABINA/TENOFOVIR",
+      "targa_short": "FTC+TDF",
+      "brand": "TRUVADA",
+      "presentation": "200/245",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR03"
+    }
+  },
+  {
+    "drug_id": 100,
+    "start_date": "2011-07-26",
+    "end_date": "2011-10-10",
+    "end_reason": {
+      "code": "PHEND_ADVEF",
+      "description": "Efecto Secundario"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EFAVIRENZ/ EMTRICITABINA/ TENOFOVIR DF.",
+      "targa_short": "EFV+FTC+TDF",
+      "brand": "ATRIPLA",
+      "presentation": "600/200/245",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR06"
+    }
+  },
+  {
+    "drug_id": 86,
+    "start_date": "2011-03-29",
+    "end_date": "2011-07-26",
+    "end_reason": {
+      "code": "PHEND_UNK",
+      "description": "Desconocido"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EMTRICITABINA/TENOFOVIR",
+      "targa_short": "FTC+TDF",
+      "brand": "TRUVADA",
+      "presentation": "200/245",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR03"
+    }
+  },
+  {
+    "drug_id": 7,
+    "start_date": "2011-03-29",
+    "end_date": "2011-07-26",
+    "end_reason": {
+      "code": "PHEND_UNK",
+      "description": "Desconocido"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": "1 Comp./24h.",
+      "frecuency": "C24H"
+    },
+    "info": {
+      "text": "EFAVIRENZ",
+      "targa_short": "EFV",
+      "brand": "SUSTIVA",
+      "presentation": "600,0",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AG03"
+    }
+  },
+  {
+    "drug_id": 178,
+    "start_date": "2018-12-05",
+    "end_date": "2022-06-08",
+    "end_reason": {
+      "code": "PHEND_MED",
+      "description": "Criterio Médico"
+    },
+    "dose_adm": {
+      "presentation": 1,
+      "messure": null,
+      "other": null,
+      "frecuency": null
+    },
+    "info": {
+      "text": "EMTRICITABINA/ RILPIVIRINA/ TENOFOVIR ALAF.",
+      "targa_short": "FTC+RPV+TAF",
+      "brand": "ODEFSEY",
+      "presentation": "200/25/25",
+      "presentation_unit": "COMP",
+      "messure_unit": "MG",
+      "atc": "J05AR19"
+    }
+  }
+]

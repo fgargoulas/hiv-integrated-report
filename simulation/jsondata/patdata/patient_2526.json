@@ -1,0 +1,16 @@
+{
+  "id": "2526",
+  "mrn": "2526",
+  "national_health_id": "IB-ES-972526",
+  "full_name": "Carlos Sánchez Sánchez",
+  "sex": "M",
+  "birth_date": "1976-05-16",
+  "hiv_type": "UNK",
+  "hiv_date": "2006-01-23",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2006-05-05"
+}

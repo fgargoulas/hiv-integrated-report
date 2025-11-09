@@ -1,0 +1,16 @@
+{
+  "id": "2280",
+  "mrn": "2280",
+  "national_health_id": "IB-ES-942280",
+  "full_name": "Sara Martínez García",
+  "sex": "F",
+  "birth_date": "1963-02-04",
+  "hiv_type": "UNK",
+  "hiv_date": "1994-01-10",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "1994-01-10"
+}

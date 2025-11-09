@@ -1,0 +1,16 @@
+{
+  "id": "5896",
+  "mrn": "5896",
+  "national_health_id": "IB-ES-245896",
+  "full_name": "Juan García Fernández",
+  "sex": "M",
+  "birth_date": "1981-09-21",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2003-06-25",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2005-11-24"
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "2003-10-04"
+}

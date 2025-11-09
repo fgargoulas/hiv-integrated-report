@@ -1,0 +1,16 @@
+{
+  "id": "5575",
+  "mrn": "5575",
+  "national_health_id": "IB-ES-515575",
+  "full_name": "Carmen López Martínez",
+  "sex": "F",
+  "birth_date": "1965-03-18",
+  "hiv_type": "UNK",
+  "hiv_date": "1996-06-27",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "1996-08-13"
+}

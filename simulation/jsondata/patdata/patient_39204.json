@@ -1,0 +1,16 @@
+{
+  "id": "39204",
+  "mrn": "39204",
+  "national_health_id": "IB-ES-1539204",
+  "full_name": "Carlos Martínez Martínez",
+  "sex": "M",
+  "birth_date": "1965-09-03",
+  "hiv_type": "HIV1-D",
+  "hiv_date": "2024-05-26",
+  "hla_b57": {
+    "value": "POS",
+    "date": "2024-11-10"
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2024-05-29"
+}

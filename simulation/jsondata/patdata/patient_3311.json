@@ -1,0 +1,16 @@
+{
+  "id": "3311",
+  "mrn": "3311",
+  "national_health_id": "IB-ES-533311",
+  "full_name": "Carlos López Fernández",
+  "sex": "M",
+  "birth_date": "1949-09-06",
+  "hiv_type": "UNK",
+  "hiv_date": "2008-05-27",
+  "hla_b57": {
+    "value": "NEG",
+    "date": null
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2008-06-17"
+}

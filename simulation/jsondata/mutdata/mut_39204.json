@@ -1,0 +1,30 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 20215,
+      "test_date": "2024-07-13",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": [
+          "T97A"
+        ]
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 20216,
+      "test_date": "2024-08-03",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": [
+          "T97A"
+        ]
+      },
+      "has_mutation": true
+    }
+  ]
+}

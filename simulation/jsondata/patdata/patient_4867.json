@@ -1,0 +1,16 @@
+{
+  "id": "4867",
+  "mrn": "4867",
+  "national_health_id": "IB-ES-184867",
+  "full_name": "Antonio Martínez Pérez",
+  "sex": "M",
+  "birth_date": "1963-08-21",
+  "hiv_type": "UNK",
+  "hiv_date": "2000-09-30",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2003-06-05"
+  },
+  "riskgroup": "RG_UNKNOWN",
+  "first_visit_date": "2000-09-30"
+}

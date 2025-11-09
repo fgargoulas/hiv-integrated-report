@@ -1,0 +1,16 @@
+{
+  "id": "1362",
+  "mrn": "1362",
+  "national_health_id": "IB-ES-851362",
+  "full_name": "David López Pérez",
+  "sex": "M",
+  "birth_date": "1964-06-08",
+  "hiv_type": "UNK",
+  "hiv_date": "1993-07-04",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "2003-02-18"
+}

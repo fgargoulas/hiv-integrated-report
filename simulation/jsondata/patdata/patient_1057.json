@@ -1,0 +1,16 @@
+{
+  "id": "1057",
+  "mrn": "1057",
+  "national_health_id": "IB-ES-411057",
+  "full_name": "David Fernández Fernández",
+  "sex": "M",
+  "birth_date": "1964-05-06",
+  "hiv_type": "UNK",
+  "hiv_date": "1991-07-03",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2005-06-20"
+  },
+  "riskgroup": "RG_HOMO",
+  "first_visit_date": "2002-06-24"
+}

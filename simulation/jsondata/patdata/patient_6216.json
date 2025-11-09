@@ -1,0 +1,16 @@
+{
+  "id": "6216",
+  "mrn": "6216",
+  "national_health_id": "IB-ES-956216",
+  "full_name": "Elena Sánchez López",
+  "sex": "F",
+  "birth_date": "1960-12-14",
+  "hiv_type": "HIV1-A1",
+  "hiv_date": "1997-06-17",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "1997-06-17"
+}

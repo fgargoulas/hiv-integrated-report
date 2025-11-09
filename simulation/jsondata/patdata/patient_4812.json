@@ -1,0 +1,16 @@
+{
+  "id": "4812",
+  "mrn": "4812",
+  "national_health_id": "IB-ES-544812",
+  "full_name": "María López Sánchez",
+  "sex": "F",
+  "birth_date": "1982-05-16",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "2009-03-05",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "2009-05-31"
+}

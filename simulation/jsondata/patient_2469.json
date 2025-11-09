@@ -1,0 +1,1420 @@
+{
+  "pat_data": {
+    "id": "2469",
+    "mrn": "2469",
+    "national_health_id": "IB-ES-342469",
+    "full_name": "Lucía García López",
+    "sex": "F",
+    "birth_date": "1974-01-10",
+    "hiv_type": "HIV1-B",
+    "hiv_date": "1993-07-03",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_HETERO",
+    "first_visit_date": "1994-01-08"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 1076,
+      "test_date": "2016-03-22",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N",
+          "Y188L"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1070,
+      "test_date": "2008-12-18",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "I13V",
+          "L63P",
+          "V77I"
+        ],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1069,
+      "test_date": "2007-06-20",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "L63P",
+          "V77I"
+        ],
+        "rt": [
+          "K103N",
+          "M184V"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1068,
+      "test_date": "2006-05-25",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1067,
+      "test_date": "2001-08-23",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "L63P"
+        ],
+        "rt": [
+          "K103N",
+          "M184V"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1075,
+      "test_date": "2012-05-15",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1074,
+      "test_date": "2011-02-14",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1073,
+      "test_date": "2010-10-11",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1072,
+      "test_date": "2009-12-16",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "I13V",
+          "L63P",
+          "V77I"
+        ],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 1071,
+      "test_date": "2009-07-20",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "I13V",
+          "L63P"
+        ],
+        "rt": [
+          "K103N"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 41,
+      "start_date": "2007-06-20",
+      "end_date": "2008-02-14",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 2,
+        "messure": null,
+        "other": "2 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ATAZANAVIR",
+        "targa_short": "ATZ",
+        "brand": "REYATAZ",
+        "presentation": "150,0",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AE08"
+      }
+    },
+    {
+      "drug_id": 27,
+      "start_date": "2007-03-21",
+      "end_date": "2007-06-20",
+      "end_reason": {
+        "code": "PHEND_UNK",
+        "description": "Desconocido"
+      },
+      "dose_adm": {
+        "presentation": 2,
+        "messure": null,
+        "other": "2 Comp./12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "LOPINAVIR/ RITONAVIR",
+        "targa_short": "LPV+RTV",
+        "brand": "KALETRA",
+        "presentation": "200/50",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AR10"
+      }
+    },
+    {
+      "drug_id": 86,
+      "start_date": "2006-10-05",
+      "end_date": "2008-02-14",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/TENOFOVIR",
+        "targa_short": "FTC+TDF",
+        "brand": "TRUVADA",
+        "presentation": "200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR03"
+      }
+    },
+    {
+      "drug_id": 65,
+      "start_date": "2006-05-25",
+      "end_date": "2007-03-21",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": 2,
+        "messure": null,
+        "other": "2 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ATAZANAVIR",
+        "targa_short": "ATZ",
+        "brand": "REYATAZ",
+        "presentation": "200,0",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AE08"
+      }
+    },
+    {
+      "drug_id": 61,
+      "start_date": "2005-10-20",
+      "end_date": "2006-05-10",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ESTAVUDINA",
+        "targa_short": "D4T",
+        "brand": "ZERIT",
+        "presentation": "30,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF04"
+      }
+    },
+    {
+      "drug_id": 64,
+      "start_date": "2005-07-14",
+      "end_date": "2006-05-25",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 9,
+      "start_date": "2004-11-11",
+      "end_date": "2005-07-14",
+      "end_reason": {
+        "code": "PHEND_UNK",
+        "description": "Desconocido"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 100,
+        "other": "100 mg/24h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 41,
+      "start_date": "2004-09-30",
+      "end_date": "2006-05-25",
+      "end_reason": {
+        "code": "PHEND_MEDOTHER",
+        "description": "Criterio Médico OTRAS"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 300,
+        "other": "300 mg/24 h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ATAZANAVIR",
+        "targa_short": "ATZ",
+        "brand": "REYATAZ",
+        "presentation": "150,0",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AE08"
+      }
+    },
+    {
+      "drug_id": 31,
+      "start_date": "2004-03-11",
+      "end_date": "2006-05-10",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 300,
+        "other": "300mg/24h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "TENOFOVIR",
+        "targa_short": "TDF",
+        "brand": "VIREAD",
+        "presentation": "300,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF07"
+      }
+    },
+    {
+      "drug_id": 12,
+      "start_date": "2004-03-11",
+      "end_date": "2004-09-30",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 400,
+        "other": "400 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "SAQUINAVIR",
+        "targa_short": "SQV",
+        "brand": "INVIRASE",
+        "presentation": "200,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE01"
+      }
+    },
+    {
+      "drug_id": 9,
+      "start_date": "2004-03-11",
+      "end_date": "2004-09-30",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 600,
+        "other": "600 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 5,
+      "start_date": "2004-03-11",
+      "end_date": "2005-10-20",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 40,
+        "other": "40 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ESTAVUDINA",
+        "targa_short": "D4T",
+        "brand": "ZERIT",
+        "presentation": "40,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF04"
+      }
+    },
+    {
+      "drug_id": 12,
+      "start_date": "2003-08-21",
+      "end_date": "2004-02-28",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 400,
+        "other": "400 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "SAQUINAVIR",
+        "targa_short": "SQV",
+        "brand": "INVIRASE",
+        "presentation": "200,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE01"
+      }
+    },
+    {
+      "drug_id": 9,
+      "start_date": "2003-08-21",
+      "end_date": "2004-02-28",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 400,
+        "other": "400 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 5,
+      "start_date": "2003-06-05",
+      "end_date": "2004-02-26",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 40,
+        "other": "40 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ESTAVUDINA",
+        "targa_short": "D4T",
+        "brand": "ZERIT",
+        "presentation": "40,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF04"
+      }
+    },
+    {
+      "drug_id": 27,
+      "start_date": "2002-10-17",
+      "end_date": "2003-03-21",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 400,
+        "other": "400 MG/12 horas",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "LOPINAVIR/ RITONAVIR",
+        "targa_short": "LPV+RTV",
+        "brand": "KALETRA",
+        "presentation": "200/50",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AR10"
+      }
+    },
+    {
+      "drug_id": 31,
+      "start_date": "2002-10-17",
+      "end_date": "2004-02-26",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 300,
+        "other": "300mg/24h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "TENOFOVIR",
+        "targa_short": "TDF",
+        "brand": "VIREAD",
+        "presentation": "300,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF07"
+      }
+    },
+    {
+      "drug_id": 11,
+      "start_date": "2001-11-29",
+      "end_date": "2002-10-17",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 750,
+        "other": "750 mg/8h",
+        "frecuency": "C8H"
+      },
+      "info": {
+        "text": "NELFINAVIR",
+        "targa_short": "NFV",
+        "brand": "VIRACEPT",
+        "presentation": "250,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE04"
+      }
+    },
+    {
+      "drug_id": 3,
+      "start_date": "2001-11-29",
+      "end_date": "2002-10-17",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 150,
+        "other": "150 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "DIDANOXINA",
+        "targa_short": "DDI",
+        "brand": "VIDEX",
+        "presentation": "400,0",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AF02"
+      }
+    },
+    {
+      "drug_id": 1,
+      "start_date": "2001-11-29",
+      "end_date": "2003-06-05",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 250,
+        "other": "250 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ZIDOVUDINA",
+        "targa_short": "AZT",
+        "brand": "RETROVIR",
+        "presentation": "250,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF01"
+      }
+    },
+    {
+      "drug_id": 8,
+      "start_date": "2001-11-29",
+      "end_date": "2002-02-21",
+      "end_reason": {
+        "code": "PHEND_UNK",
+        "description": "Desconocido"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 300,
+        "other": "300 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ABACAVIR",
+        "targa_short": "ABC",
+        "brand": "ZIAGEN",
+        "presentation": "300,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF06"
+      }
+    },
+    {
+      "drug_id": 3,
+      "start_date": "2001-06-07",
+      "end_date": "2001-07-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 150,
+        "other": "150 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "DIDANOXINA",
+        "targa_short": "DDI",
+        "brand": "VIDEX",
+        "presentation": "400,0",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AF02"
+      }
+    },
+    {
+      "drug_id": 1,
+      "start_date": "2001-06-07",
+      "end_date": "2001-07-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 250,
+        "other": "250 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ZIDOVUDINA",
+        "targa_short": "AZT",
+        "brand": "RETROVIR",
+        "presentation": "250,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF01"
+      }
+    },
+    {
+      "drug_id": 8,
+      "start_date": "2001-06-07",
+      "end_date": "2001-07-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 300,
+        "other": "300 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ABACAVIR",
+        "targa_short": "ABC",
+        "brand": "ZIAGEN",
+        "presentation": "300,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF06"
+      }
+    },
+    {
+      "drug_id": 11,
+      "start_date": "2000-10-24",
+      "end_date": "2001-07-15",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 750,
+        "other": "750 mg/8h",
+        "frecuency": "C8H"
+      },
+      "info": {
+        "text": "NELFINAVIR",
+        "targa_short": "NFV",
+        "brand": "VIRACEPT",
+        "presentation": "250,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE04"
+      }
+    },
+    {
+      "drug_id": 154,
+      "start_date": "1999-02-24",
+      "end_date": "2000-10-24",
+      "end_reason": {
+        "code": "PHEND_UNK",
+        "description": "Desconocido"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 200,
+        "other": "200 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "NEVIRAPINA",
+        "targa_short": "NVP",
+        "brand": "KERN PHARMA",
+        "presentation": "200,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AG01"
+      }
+    },
+    {
+      "drug_id": 10,
+      "start_date": "1998-05-08",
+      "end_date": "1999-02-24",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 800,
+        "other": "800 mg/8h",
+        "frecuency": "C8H"
+      },
+      "info": {
+        "text": "INDINAVIR",
+        "targa_short": "IDV",
+        "brand": "CRIXIVAN",
+        "presentation": "400,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE02"
+      }
+    },
+    {
+      "drug_id": 5,
+      "start_date": "1998-05-08",
+      "end_date": "2001-06-07",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 40,
+        "other": "40 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ESTAVUDINA",
+        "targa_short": "D4T",
+        "brand": "ZERIT",
+        "presentation": "40,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF04"
+      }
+    },
+    {
+      "drug_id": 12,
+      "start_date": "1997-09-15",
+      "end_date": "1998-05-08",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 400,
+        "other": "400 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "SAQUINAVIR",
+        "targa_short": "SQV",
+        "brand": "INVIRASE",
+        "presentation": "200,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE01"
+      }
+    },
+    {
+      "drug_id": 9,
+      "start_date": "1997-06-25",
+      "end_date": "1997-09-15",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 600,
+        "other": "600 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 4,
+      "start_date": "1997-06-25",
+      "end_date": "2001-06-07",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 150,
+        "other": "150 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "LAMIVUDINA",
+        "targa_short": "3TC",
+        "brand": "EPIVIR",
+        "presentation": "150,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF05"
+      }
+    },
+    {
+      "drug_id": 2,
+      "start_date": "1996-05-31",
+      "end_date": "1998-01-27",
+      "end_reason": {
+        "code": "PHEND_UNK",
+        "description": "Desconocido"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": null,
+        "other": "0,75 mg/8 h",
+        "frecuency": null
+      },
+      "info": {
+        "text": "ZALCITABINA",
+        "targa_short": "DDC",
+        "brand": "HIVID",
+        "presentation": "0.75",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF03"
+      }
+    },
+    {
+      "drug_id": 1,
+      "start_date": "1994-07-06",
+      "end_date": "1998-05-08",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 250,
+        "other": "250 mg/12h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ZIDOVUDINA",
+        "targa_short": "AZT",
+        "brand": "RETROVIR",
+        "presentation": "250,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AF01"
+      }
+    },
+    {
+      "drug_id": 179,
+      "start_date": "2019-12-03",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1COMP DE",
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    },
+    {
+      "drug_id": 173,
+      "start_date": "2018-10-16",
+      "end_date": "2019-12-02",
+      "end_reason": {
+        "code": "PHEND_COST",
+        "description": "Coste"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1COMP C/24 H",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "FTC+TAF",
+        "brand": "DESCOVY",
+        "presentation": "200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR17"
+      }
+    },
+    {
+      "drug_id": 86,
+      "start_date": "2017-05-02",
+      "end_date": "2018-10-15",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/TENOFOVIR",
+        "targa_short": "FTC+TDF",
+        "brand": "TRUVADA",
+        "presentation": "200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR03"
+      }
+    },
+    {
+      "drug_id": 161,
+      "start_date": "2017-05-02",
+      "end_date": "2019-12-02",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 50,
+        "other": "50mg/24h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR",
+        "targa_short": "DOL",
+        "brand": "TIVICAY",
+        "presentation": "50,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ03"
+      }
+    },
+    {
+      "drug_id": 169,
+      "start_date": "2017-03-28",
+      "end_date": "2017-04-25",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/día",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ELVITEGRAVIR/ COBICISTAT/ EMTRICITABINA/ TENOFOVIR ALAF.",
+        "targa_short": "EVG+COBI+FTC+TAF",
+        "brand": "GENVOYA",
+        "presentation": "150/150/200/10",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR18"
+      }
+    },
+    {
+      "drug_id": 161,
+      "start_date": "2015-01-27",
+      "end_date": "2017-03-28",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 50,
+        "other": "50mg/24h",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR",
+        "targa_short": "DOL",
+        "brand": "TIVICAY",
+        "presentation": "50,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ03"
+      }
+    },
+    {
+      "drug_id": 94,
+      "start_date": "2014-08-05",
+      "end_date": "2015-01-27",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp./12 h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RALTEGRAVIR ",
+        "targa_short": "RAL",
+        "brand": "ISSENTRESS",
+        "presentation": "400,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ01"
+      }
+    },
+    {
+      "drug_id": 64,
+      "start_date": "2012-06-12",
+      "end_date": "2014-08-05",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 139,
+      "start_date": "2012-06-12",
+      "end_date": "2014-08-05",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 COMP DIARIO",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ATAZANAVIR",
+        "targa_short": "ATZ",
+        "brand": "REYATAZ",
+        "presentation": "300,0",
+        "presentation_unit": "CAPS",
+        "messure_unit": "MG",
+        "atc": "J05AE08"
+      }
+    },
+    {
+      "drug_id": 86,
+      "start_date": "2011-12-21",
+      "end_date": "2017-03-28",
+      "end_reason": {
+        "code": "PHEND_SIMP",
+        "description": "Simplificación"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/TENOFOVIR",
+        "targa_short": "FTC+TDF",
+        "brand": "TRUVADA",
+        "presentation": "200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR03"
+      }
+    },
+    {
+      "drug_id": 64,
+      "start_date": "2011-06-13",
+      "end_date": "2012-06-12",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 93,
+      "start_date": "2011-06-13",
+      "end_date": "2012-06-12",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 2,
+        "messure": null,
+        "other": "2 comp./12 h",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "DARUNAVIR",
+        "targa_short": "DRV",
+        "brand": "PREZISTA",
+        "presentation": "300,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE10"
+      }
+    },
+    {
+      "drug_id": 112,
+      "start_date": "2011-02-14",
+      "end_date": "2011-04-14",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": null,
+        "other": "jarabe 5ml/12hs",
+        "frecuency": null
+      },
+      "info": {
+        "text": "LOPINAVIR/ RITONAVIR",
+        "targa_short": "LPV+RTV ",
+        "brand": "KALETRA",
+        "presentation": "200/50",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR10"
+      }
+    },
+    {
+      "drug_id": 94,
+      "start_date": "2009-06-10",
+      "end_date": "2011-12-21",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp./12 h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RALTEGRAVIR ",
+        "targa_short": "RAL",
+        "brand": "ISSENTRESS",
+        "presentation": "400,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AJ01"
+      }
+    },
+    {
+      "drug_id": 150,
+      "start_date": "2009-03-05",
+      "end_date": "2011-04-14",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": null,
+        "messure": 200,
+        "other": "200 MG/12hs",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "ETRAVIRINA",
+        "targa_short": "ETV",
+        "brand": "INTELENCE",
+        "presentation": "200,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AG04"
+      }
+    },
+    {
+      "drug_id": 64,
+      "start_date": "2008-04-17",
+      "end_date": "2011-02-14",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    },
+    {
+      "drug_id": 93,
+      "start_date": "2008-04-17",
+      "end_date": "2011-02-14",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 2,
+        "messure": null,
+        "other": "2 Comp/12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "DARUNAVIR",
+        "targa_short": "DRV",
+        "brand": "PREZISTA",
+        "presentation": "300,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE10"
+      }
+    },
+    {
+      "drug_id": 85,
+      "start_date": "2008-02-14",
+      "end_date": "2009-06-10",
+      "end_reason": {
+        "code": "PHEND_FAIL",
+        "description": "Fracaso"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/dia",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "ABACAVIR SULFATE/ LAMIVUDINA",
+        "targa_short": "ABC+3TC",
+        "brand": "KIVEXA",
+        "presentation": "600/300",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR02"
+      }
+    },
+    {
+      "drug_id": 64,
+      "start_date": "2007-06-20",
+      "end_date": "2008-02-14",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "RITONAVIR",
+        "targa_short": "RTV",
+        "brand": "NORVIR",
+        "presentation": "100,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE03"
+      }
+    }
+  ]
+}

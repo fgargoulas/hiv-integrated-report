@@ -1,0 +1,201 @@
+{
+  "pat_data": {
+    "id": "1362",
+    "mrn": "1362",
+    "national_health_id": "IB-ES-851362",
+    "full_name": "David López Pérez",
+    "sex": "M",
+    "birth_date": "1964-06-08",
+    "hiv_type": "UNK",
+    "hiv_date": "1993-07-04",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_IDU",
+    "first_visit_date": "2003-02-18"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 533,
+      "test_date": "2006-01-17",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "A71T",
+          "G73S"
+        ],
+        "rt": [
+          "A62V",
+          "L210W",
+          "T215F"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 534,
+      "test_date": "2006-04-25",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "A71V",
+          "N88D"
+        ],
+        "rt": [
+          "V75I",
+          "Q151M"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 24,
+      "start_date": "2003-04-23",
+      "end_date": "2012-11-19",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "LAMIVUDINA/ ZIDOVUDINA",
+        "targa_short": "3TC+AZT",
+        "brand": "COMBIVIR",
+        "presentation": "150/300",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR01"
+      }
+    },
+    {
+      "drug_id": 181,
+      "start_date": "2021-02-11",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/día",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "DOLUTEGRAVIR/ LAMIVUDINA",
+        "targa_short": "DGT+3TC",
+        "brand": "DOVATO",
+        "presentation": "50/300",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR25"
+      }
+    },
+    {
+      "drug_id": 178,
+      "start_date": "2018-09-19",
+      "end_date": "2021-02-11",
+      "end_reason": {
+        "code": "PHEND_MED",
+        "description": "Criterio Médico"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 comp/diario",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EMTRICITABINA/ RILPIVIRINA/ TENOFOVIR ALAF.",
+        "targa_short": "FTC+RPV+TAF",
+        "brand": "ODEFSEY",
+        "presentation": "200/25/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR19"
+      }
+    },
+    {
+      "drug_id": 100,
+      "start_date": "2012-11-19",
+      "end_date": "2018-01-24",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EFAVIRENZ/ EMTRICITABINA/ TENOFOVIR DF.",
+        "targa_short": "EFV+FTC+TDF",
+        "brand": "ATRIPLA",
+        "presentation": "600/200/245",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR06"
+      }
+    },
+    {
+      "drug_id": 7,
+      "start_date": "2003-11-03",
+      "end_date": "2012-11-19",
+      "end_reason": {
+        "code": "PHEND_ABAN",
+        "description": "Abandono"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": "1 Comp./24h.",
+        "frecuency": "C24H"
+      },
+      "info": {
+        "text": "EFAVIRENZ",
+        "targa_short": "EFV",
+        "brand": "SUSTIVA",
+        "presentation": "600,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AG03"
+      }
+    },
+    {
+      "drug_id": 11,
+      "start_date": "2003-04-23",
+      "end_date": "2003-11-03",
+      "end_reason": {
+        "code": "PHEND_MEDINTER",
+        "description": "Criterio Médico INTERACCIONES"
+      },
+      "dose_adm": {
+        "presentation": 5,
+        "messure": null,
+        "other": "5 Comp./12h.",
+        "frecuency": "C12H"
+      },
+      "info": {
+        "text": "NELFINAVIR",
+        "targa_short": "NFV",
+        "brand": "VIRACEPT",
+        "presentation": "250,0",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AE04"
+      }
+    }
+  ]
+}

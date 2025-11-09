@@ -1,0 +1,43 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 2817,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "M36I",
+          "L63P"
+        ],
+        "rt": [
+          "Y181C",
+          "K219E"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 2818,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "K20R",
+          "M36I",
+          "D60E",
+          "L63P",
+          "A71V",
+          "G73S"
+        ],
+        "rt": [
+          "K65R",
+          "K101E",
+          "Y181C"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

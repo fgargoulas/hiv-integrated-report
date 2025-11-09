@@ -1,0 +1,16 @@
+{
+  "id": "860",
+  "mrn": "860",
+  "national_health_id": "IB-ES-27860",
+  "full_name": "Ana García Pérez",
+  "sex": "F",
+  "birth_date": "1970-07-28",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "1993-05-17",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2009-10-15"
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "2002-11-08"
+}

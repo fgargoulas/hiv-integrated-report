@@ -1,0 +1,16 @@
+{
+  "id": "3944",
+  "mrn": "3944",
+  "national_health_id": "IB-ES-813944",
+  "full_name": "Juan García López",
+  "sex": "M",
+  "birth_date": "1963-05-25",
+  "hiv_type": "HIV1-B",
+  "hiv_date": "1986-06-09",
+  "hla_b57": {
+    "value": "NEG",
+    "date": "2010-09-01"
+  },
+  "riskgroup": "RG_IDU",
+  "first_visit_date": "2005-01-19"
+}

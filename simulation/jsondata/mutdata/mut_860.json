@@ -1,0 +1,34 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 341,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N",
+          "M184V",
+          "P225H"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 342,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [
+          "K103N",
+          "M184V",
+          "P225H"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

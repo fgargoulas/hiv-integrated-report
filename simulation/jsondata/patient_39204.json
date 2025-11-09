@@ -1,0 +1,72 @@
+{
+  "pat_data": {
+    "id": "39204",
+    "mrn": "39204",
+    "national_health_id": "IB-ES-1539204",
+    "full_name": "Carlos Martínez Martínez",
+    "sex": "M",
+    "birth_date": "1965-09-03",
+    "hiv_type": "HIV1-D",
+    "hiv_date": "2024-05-26",
+    "hla_b57": {
+      "value": "POS",
+      "date": "2024-11-10"
+    },
+    "riskgroup": "RG_HOMO",
+    "first_visit_date": "2024-05-29"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 20215,
+      "test_date": "2024-07-12",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": [
+          "T97A"
+        ]
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 20216,
+      "test_date": "2024-07-12",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [],
+        "rt": [],
+        "in": [
+          "T97A"
+        ]
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 179,
+      "start_date": "2024-06-28",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    }
+  ]
+}

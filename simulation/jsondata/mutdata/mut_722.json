@@ -1,0 +1,124 @@
+{
+  "resistance_history": [
+    {
+      "resistance_id": 286,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "K20R",
+          "M36I",
+          "I54V",
+          "L63P",
+          "A71V",
+          "V82A",
+          "I93L"
+        ],
+        "rt": [
+          "M41L",
+          "L100I",
+          "K103N",
+          "M184V",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 290,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "L10I",
+          "K20R",
+          "M36I",
+          "I54V",
+          "L63P",
+          "A71V",
+          "I93L"
+        ],
+        "rt": [
+          "M41L",
+          "T69N",
+          "A98G",
+          "Y181C",
+          "M184V",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 289,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "K20R",
+          "M36I",
+          "I54V",
+          "L63P",
+          "A71V",
+          "V82A",
+          "I93L"
+        ],
+        "rt": [
+          "M41L",
+          "L100I",
+          "K103N",
+          "M184V",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 288,
+      "test_date": null,
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "I54V",
+          "V82A"
+        ],
+        "rt": [
+          "M41L",
+          "A98G",
+          "M184V",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 287,
+      "test_date": null,
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "K20R",
+          "M36I",
+          "I54V",
+          "L63P",
+          "V82A",
+          "I93L"
+        ],
+        "rt": [
+          "M41L",
+          "A98G",
+          "M184V",
+          "L210W",
+          "T215Y"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ]
+}

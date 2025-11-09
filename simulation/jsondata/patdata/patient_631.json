@@ -1,0 +1,16 @@
+{
+  "id": "631",
+  "mrn": "631",
+  "national_health_id": "IB-ES-90631",
+  "full_name": "Sara Martínez Martínez",
+  "sex": "F",
+  "birth_date": "1976-07-16",
+  "hiv_type": "HIV1-UNK",
+  "hiv_date": "2008-04-11",
+  "hla_b57": {
+    "value": "UNK",
+    "date": null
+  },
+  "riskgroup": "RG_HETERO",
+  "first_visit_date": "2008-10-23"
+}

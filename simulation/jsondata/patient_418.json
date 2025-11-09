@@ -1,0 +1,108 @@
+{
+  "pat_data": {
+    "id": "418",
+    "mrn": "418",
+    "national_health_id": "IB-ES-63418",
+    "full_name": "Luis Martínez López",
+    "sex": "M",
+    "birth_date": "1979-05-31",
+    "hiv_type": "HIV1-A1",
+    "hiv_date": "2011-04-02",
+    "hla_b57": {
+      "value": "UNK",
+      "date": null
+    },
+    "riskgroup": "RG_HOMO",
+    "first_visit_date": "2011-04-02"
+  },
+  "resistance_history": [
+    {
+      "resistance_id": 168,
+      "test_date": "2011-05-12",
+      "test_type": "genotypic",
+      "mutations": {
+        "pr": [
+          "M36I",
+          "M36I"
+        ],
+        "rt": [
+          "K101E",
+          "K101E",
+          "E138A",
+          "E138A"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    },
+    {
+      "resistance_id": 169,
+      "test_date": "2011-05-17",
+      "test_type": "phenotypic",
+      "mutations": {
+        "pr": [
+          "M36I",
+          "M36I"
+        ],
+        "rt": [
+          "K101E",
+          "K101E",
+          "E138A",
+          "E138A"
+        ],
+        "in": []
+      },
+      "has_mutation": true
+    }
+  ],
+  "treatment_history": [
+    {
+      "drug_id": 179,
+      "start_date": "2021-05-10",
+      "end_date": null,
+      "end_reason": {
+        "code": null,
+        "description": null
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": "DE"
+      },
+      "info": {
+        "text": "BICTEGRAVIR/ EMTRICITABINA/ TENOFOVIR ALAFENAMIDA",
+        "targa_short": "BIC+FTC+TAF",
+        "brand": "BIKTARVY",
+        "presentation": "50/200/25",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR20"
+      }
+    },
+    {
+      "drug_id": 176,
+      "start_date": "2018-07-26",
+      "end_date": "2021-07-26",
+      "end_reason": {
+        "code": "PHEND_ADVEF",
+        "description": "Efecto Secundario"
+      },
+      "dose_adm": {
+        "presentation": 1,
+        "messure": null,
+        "other": null,
+        "frecuency": null
+      },
+      "info": {
+        "text": "DARUNAVIR/ COBICISTAT/ EMTRICITABINA/ TENOFOVIR ALAF.",
+        "targa_short": "DRV+COBI+FTC+TAF",
+        "brand": "SYMTUZA",
+        "presentation": "800/150/200/10",
+        "presentation_unit": "COMP",
+        "messure_unit": "MG",
+        "atc": "J05AR22"
+      }
+    }
+  ]
+}
