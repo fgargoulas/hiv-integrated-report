@@ -15,7 +15,7 @@
 **Universidad Internacional de La Rioja (UNIR)**  
 Facultad de Ingeniería – Curso 2024/2025  
 
-### 🧑‍🏫 Tutora
+### 🧑‍🏫 Tutor
 **Luís Eduardo Bayonet Robles**
 
 ---
