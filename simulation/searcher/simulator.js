@@ -141,9 +141,12 @@ document.addEventListener("DOMContentLoaded", () => {
             ? data.treatment_history
             : [];
 
+        //se cargan los datos en el sessionStorage para pasarlo al report.html
         sessionStorage.setItem("patientdata", JSON.stringify(patData));
         sessionStorage.setItem("resistance_history", JSON.stringify(resistanceHistory));
         sessionStorage.setItem("treatment_history", JSON.stringify(treatmentHistory));
+
+
     };
 
     // --- Eventos -----------------------------------------------------------
@@ -187,6 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 `,
                 "success"
             );
+            window.location.href = `report.html?patientId=${selectedOption}`;
         } catch (error) {
             console.error(error);
             clearSessionPatientData();
