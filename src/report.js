@@ -14,16 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const accumulated = HIVResistanceCore.buildAccumulatedResistanceHistory(resistance_history);
       console.log (accumulated);
       
-      /*
-      const drugMatrix = HIVResistanceCore.mergeWithTreatmentHistory(accumulated, treatment_history);
-      const hivdbReport = HIVResistanceCore.buildStanfordSection(drugMatrix);
-
-      // Renderizar con la capa UX
-      HIVUX.renderHeader(pat_data);
-      HIVUX.renderMutationTable(accumulated);
-      HIVUX.renderStanfordSection(hivdbReport);
-      HIVUX.renderResistanceChart(resistance_history, treatment_history);
-     */
+  
 
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
