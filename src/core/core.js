@@ -38,11 +38,17 @@ const HIVResistanceCore = {
     const sortByCodon = set =>
         Array.from(set).sort((a, b) => codonNumber(a) - codonNumber(b));
 
-    return {
+     const accumulated =  {
         pr: sortByCodon(acc.pr),
         rt: sortByCodon(acc.rt),
         in: sortByCodon(acc.in)
     };
+    
+
+      // ✅ Añadir el resultado al propio objeto
+    resistanceHistory.accumulated_mutations = accumulated;
+
+    return accumulated;
     }
 
 };

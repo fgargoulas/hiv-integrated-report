@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
      //Primero se calculas resistencias acumuladas
       const accumulated = HIVResistanceCore.buildAccumulatedResistanceHistory(resistance_history);
       console.log (accumulated);
-      
+      console.log (resistance_history);
   
 
       // Mostrar contenido y ocultar loader
