@@ -45,10 +45,8 @@ const HIVResistanceCore = {
     };
     
 
-      // ✅ Añadir el resultado al propio objeto
-    resistanceHistory.accumulated_mutations = accumulated;
-
-    return accumulated;
+    // ✅ Añadir el resultado al propio objeto
+    return { history: resistanceHistory, accumulated_mutations: accumulated };
     }
 
 };
