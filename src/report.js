@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
       // Recuperar datos del sessionStorage
       const pat_data = JSON.parse(sessionStorage.getItem("pat_data") || "{}");
-      const resistance_history = JSON.parse(sessionStorage.getItem("resistance_history") || "[]");
+      let resistance_history = JSON.parse(sessionStorage.getItem("resistance_history") || "[]"); 
       const treatment_history = JSON.parse(sessionStorage.getItem("treatment_history") || "[]");
 
       if (!pat_data || !resistance_history.length) {
