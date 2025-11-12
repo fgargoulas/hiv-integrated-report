@@ -56,11 +56,20 @@ const HIVResistanceCore = {
    async callSierraService(accumulated_mutations) {
     const url_stanford = "https://hivdb.stanford.edu/graphql";
 
-    // Aplana todas las mutaciones en un solo array
-    const mutStandford = []
-      .concat(accumulated_mutations?.pr ?? [])
-      .concat(accumulated_mutations?.rt ?? [])
-      .concat(accumulated_mutations?.in ?? []);
+    // Aplana todas las mutaciones en un solo array en el formato que requiere el servicio sierra
+    //(...)spread operator aplana el contenido dle array y para cada array a cada elemento le pone el prefijo correspondiente
+        const mutStandford = [
+        ...(Array.isArray(accumulated_mutations?.pr)
+            ? accumulated_mutations.pr.map(m => `PR:${m}`)
+            : []),
+        ...(Array.isArray(accumulated_mutations?.rt)
+            ? accumulated_mutations.rt.map(m => `RT:${m}`)
+            : []),
+        ...(Array.isArray(accumulated_mutations?.in)
+            ? accumulated_mutations.in.map(m => `IN:${m}`)
+            : [])
+        ];
+        console.log (mutStandford);
 
     // Construcción del body GraphQL
     const json_stanfordRequest = {
