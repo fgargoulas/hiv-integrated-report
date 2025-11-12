@@ -44,9 +44,46 @@ const HIVResistanceCore = {
         in: sortByCodon(acc.in)
     };
     
-
-    // ✅ Añadir el resultado al propio objeto
+    //creamos el objeto final con el histórico y el acumulado.
     return { history: resistanceHistory, accumulated_mutations: accumulated };
-    }
+    },
 
+
+   /**
+   * Función core que llama al servicio de Standform y envía las mutaciones acumuladas 
+   * y devuelve el JSON de respuesta.
+   */
+   async callSierraService(accumulated_mutations) {
+    const url_stanford = "https://hivdb.stanford.edu/graphql";
+
+    // Aplana todas las mutaciones en un solo array
+    const mutStandford = []
+      .concat(accumulated_mutations?.pr ?? [])
+      .concat(accumulated_mutations?.rt ?? [])
+      .concat(accumulated_mutations?.in ?? []);
+
+    // Construcción del body GraphQL
+    const json_stanfordRequest = {
+        operationName: "MutationsAnalysis",
+        query:"query MutationsAnalysis($mutations: [String]!, $algorithm: ASIAlgorithm) {\n  currentVersion {\n    text\n    publishDate\n  }\n  currentProgramVersion {\n    text\n    publishDate\n  }\n  mutationsAnalysis(mutations: $mutations) {\n    ...HIVDBReportByMutations\n  }\n}\n\nfragment HIVDBReportByMutations on MutationsAnalysis {\n  validationResults {\n    level\n    message\n  }\n  drugResistance(algorithm: $algorithm) {\n    algorithm {\n      family\n      version\n      publishDate\n    }\n    gene {\n      name\n      drugClasses {\n        name\n        fullName\n      }\n    }\n    levels: drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n        fullName\n      }\n      text\n    }\n    mutationsByTypes {\n      mutationType\n      mutations {\n        text\n        isUnsequenced\n      }\n    }\n    commentsByTypes {\n      commentType\n      comments {\n        name\n        text\n        highlightText\n      }\n    }\n    drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n      }\n      score\n      partialScores {\n        mutations {\n          text\n        }\n        score\n      }\n    }\n  }\n}\n",
+        variables: { mutations: mutStandford }
+    };
+
+    try {
+      const response = await fetch(url_stanford, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(json_stanfordRequest)
+      });
+
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const data = await response.json();
+      return data; // devuelve directamente la respuesta de Stanford
+
+    } catch (err) {
+      console.error("Error llamando a Stanford:", err);
+      return { error: true, message: err.message };
+    }
+  }
 };

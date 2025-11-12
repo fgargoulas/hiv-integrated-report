@@ -10,12 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
      /// Generar datos del informe con las funciones del core
-     //Primero se calculas resistencias acumuladas
-      const accumulated = HIVResistanceCore.buildAccumulatedResistanceHistory(resistance_history);
-      console.log (accumulated);
+     //Primero se calculas resistencias acumuladas y se normaliza objeto resistance_history
+      resistance_history = HIVResistanceCore.buildAccumulatedResistanceHistory(resistance_history);
+
       console.log (resistance_history);
   
-
+      StandordResponse=HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
+      console.log (StandordResponse)
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
       document.getElementById("reportContent").classList.remove("d-none");
