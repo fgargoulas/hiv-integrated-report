@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log (resistance_history);
   
       StandordResponse=HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
-      StandordResponse_semaphore=HIVResistanceCore.assignTargaSemaphore(StandordResponse);
+      StandordResponse_semaphore=HIVResistanceCore.assignTargaSemaphore(StandordResponse,treatment_history);
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
       document.getElementById("reportContent").classList.remove("d-none");
