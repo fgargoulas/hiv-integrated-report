@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
       // Recuperar datos del sessionStorage
       const pat_data = JSON.parse(sessionStorage.getItem("pat_data") || "{}");
       let resistance_history = JSON.parse(sessionStorage.getItem("resistance_history") || "[]"); 
@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       console.log (resistance_history);
   
-      StandordResponse=HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
-      StandordResponse_semaphore=HIVResistanceCore.assignTargaSemaphore(StandordResponse,treatment_history);
+      const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
+      const finalReportData = HIVResistanceCore.assignTargaSemaphore(StandordResponse,treatment_history);
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
       document.getElementById("reportContent").classList.remove("d-none");
