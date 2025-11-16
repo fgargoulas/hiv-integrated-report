@@ -109,6 +109,8 @@ const HIVResistanceCore = {
    * @returns {Object} stanfordResponse - El JSON de Stanford modificado y enriquecido.
    */
   assignTargaSemaphore(stanfordResponse, treatmentHistory) {
+
+    console.log("datos de entrada" + stanfordResponse+" treatmentHistory"+treatmentHistory);
     if (!stanfordResponse || !treatmentHistory || stanfordResponse.error) {
         console.error("assignTargaSemaphore: Datos de entrada inválidos.");
         return stanfordResponse;
