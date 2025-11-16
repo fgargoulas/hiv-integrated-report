@@ -52,6 +52,9 @@ const HIVResistanceCore = {
    /**
    * Función core que llama al servicio de Standform y envía las mutaciones acumuladas 
    * y devuelve el JSON de respuesta.
+   *     
+   * @param {Array<Object>} accumulated_mutations  Array con el acumulado de mutaciones.
+   * @returns {Object}  JSON devuelto por el servicio de Standford.
    */
    async callSierraService(accumulated_mutations) {
     const url_stanford = "https://hivdb.stanford.edu/graphql";
@@ -95,5 +98,120 @@ const HIVResistanceCore = {
       console.error("Error llamando a Stanford:", err);
       return { error: true, message: err.message };
     }
+  },
+
+  /**
+   * Función crítica del core: Normaliza la salida de Stanford, la enriquece con el Semáforo TARGA 
+   * (color, estado activo y nombres de fármacos prescritos coincidentes).
+   *
+   * @param {Object} stanfordResponse - JSON de respuesta RAW del servicio Sierra.
+   * @param {Array<Object>} treatmentHistory - Histórico de tratamientos del paciente (JSON Contrato).
+   * @returns {Object} stanfordResponse - El JSON de Stanford modificado y enriquecido.
+   */
+  assignTargaSemaphore(stanfordResponse, treatmentHistory) {
+    if (!stanfordResponse || !treatmentHistory || stanfordResponse.error) {
+        console.error("assignTargaSemaphore: Datos de entrada inválidos.");
+        return stanfordResponse;
+    }
+
+    // 1. Diccionario de mapeo de niveles de resistencia a colores (RF7)
+    // Se añade el color hexadecimal para la capa UI
+    const SEMAPHORE_MAPPING = {
+        "Susceptible": { name: "VERDE", color: "#28a745" }, // Verde
+        "Low-Level Resistance": { name: "AZUL", color: "#17a2b8" }, // Azul (Moderada/Baja)
+        "Potential Low-Level Resistance": { name: "AZUL", color: "#17a2b8" },
+        "Intermediate-Level Resistance": { name: "AMARILLO", color: "#ffc107" }, // Amarillo
+        "High-Level Resistance": { name: "ROJO", color: "#dc3545" }, // Rojo
+        "No Resistance": { name: "VERDE", color: "#28a745" }, 
+    };
+    
+    const DEFAULT_SEMAPHORE = { name: "GRIS", color: "#6c757d" }; // Gris para fallo o desconocido
+
+    // 2. Identificar abreviaturas y nombres de tratamientos activos
+    // Estructura para almacenar { abreviatura: [nombre_completo1, nombre_completo2, ...] }
+    const activeDrugDetails = new Map();
+    
+    // Filtrar tratamientos activos (end_date es null o no existe)
+    const activeTreatments = treatmentHistory.filter(tx => 
+        !tx.end_date || tx.end_date === null
+    );
+
+    activeTreatments.forEach(tx => {
+        const targaShort = tx.info?.targa_short;
+        const brandName = tx.info?.brand || tx.info?.text; // Usar marca o texto completo
+        
+        if (targaShort && brandName) {
+            // Dividir por '+' para manejar combinaciones (ej. "DRV+COBI")
+            targaShort.split('+').forEach(abbr => {
+                const cleanedAbbr = abbr.trim().toUpperCase();
+                if (cleanedAbbr) {
+                    if (!activeDrugDetails.has(cleanedAbbr)) {
+                        activeDrugDetails.set(cleanedAbbr, new Set());
+                    }
+                    activeDrugDetails.get(cleanedAbbr).add(brandName);
+                }
+            });
+        }
+    });
+
+    // Función auxiliar para comparar abreviaturas (ej. 'DRV' vs 'DRV/r')
+    const matchAbbreviation = (stanfordAbbr, activeAbbrMap) => {
+        if (!stanfordAbbr) return null;
+        
+        const stanfordUpper = stanfordAbbr.toUpperCase();
+        
+        // 1. Intentar coincidir con la abreviatura exacta de Stanford
+        if (activeAbbrMap.has(stanfordUpper)) {
+            return stanfordUpper;
+        }
+
+        // 2. Limpiar el displayAbbr de Stanford (ej. 'DRV/r' -> 'DRV') y buscar
+        const cleanStanfordAbbr = stanfordUpper.replace(/\/R|\/C/g, ''); // Ignorar /R o /C
+        if (activeAbbrMap.has(cleanStanfordAbbr)) {
+            return cleanStanfordAbbr;
+        }
+
+        return null;
+    };
+
+
+    // 3. Iterar y mutar la respuesta de Stanford con el semáforo y estado activo
+    const drugResistanceBlocks = stanfordResponse.data?.mutationsAnalysis?.drugResistance;
+
+    if (Array.isArray(drugResistanceBlocks)) {
+        for (const block of drugResistanceBlocks) {
+            if (Array.isArray(block.levels)) {
+                for (const level of block.levels) {
+                    // Mapear el texto de resistencia a un color de semáforo
+                    const resistanceText = level.text || "No Resistance";
+                    const semaphore = SEMAPHORE_MAPPING[resistanceText] || DEFAULT_SEMAPHORE;
+                    
+                    // Añadir nombre y color
+                    level.TARGAsemaphore = semaphore.name;
+                    level.color = semaphore.color; 
+
+                    // Comprobar si es un tratamiento activo
+                    const stanfordDisplayAbbr = level.drug?.displayAbbr;
+                    const matchedAbbr = matchAbbreviation(stanfordDisplayAbbr, activeDrugDetails);
+
+                    level.isActiveTreatment = !!matchedAbbr;
+                    
+                    // Añadir detalle de los fármacos coincidentes (RF7)
+                    if (matchedAbbr) {
+                        level.displayStatus = "PRESCRIBED";
+                        // Convertir el Set de nombres de fármacos a Array para el JSON de salida
+                        level.targa = Array.from(activeDrugDetails.get(matchedAbbr)); 
+                    } else {
+                        level.displayStatus = "INACTIVE";
+                        level.targa = [];
+                    }
+                }
+            }
+        }
+    }
+
+    return stanfordResponse;
   }
+
+
 };
