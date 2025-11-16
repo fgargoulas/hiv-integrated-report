@@ -210,6 +210,8 @@ const HIVResistanceCore = {
         }
     }
 
+    console.log("stanfordResponse + semaforo");
+    console.log(JSON.stringify(stanfordResponse));
     return stanfordResponse;
   }
 
