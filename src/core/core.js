@@ -110,7 +110,12 @@ const HIVResistanceCore = {
    */
   assignTargaSemaphore(stanfordResponse, treatmentHistory) {
 
-    console.log("datos de entrada" + stanfordResponse+" treatmentHistory"+treatmentHistory);
+    console.log("assignTargaSemaphore: datos de entrada stanfordResponse")
+    console.log(JSON.stringify(stanfordResponse))
+    console.log("assignTargaSemaphore: datos de entrada stanfordResponse")
+    console.log(JSON.stringify(treatmentHistory))
+
+
     if (!stanfordResponse || !treatmentHistory || stanfordResponse.error) {
         console.error("assignTargaSemaphore: Datos de entrada inválidos.");
         return stanfordResponse;
