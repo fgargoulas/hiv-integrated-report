@@ -1,5 +1,5 @@
 
-async function generateIntegratedReport() {
+/*async function generateIntegratedReport() {
     // 1. Recolección de datos (Simulando la obtención desde el sistema huésped o sessionStorage)
    
           // Recuperar datos del sessionStorage
@@ -57,9 +57,9 @@ async function generateIntegratedReport() {
 
 // Iniciar la generación del informe (ejecución asíncrona)
 generateIntegratedReport();
+*/
 
 
-/*
 
 document.addEventListener("DOMContentLoaded", async () => {
       // Recuperar datos del sessionStorage
@@ -76,11 +76,13 @@ document.addEventListener("DOMContentLoaded", async () => {
      //Primero se calculas resistencias acumuladas y se normaliza objeto resistance_history
       resistance_history = HIVResistanceCore.buildAccumulatedResistanceHistory(resistance_history);
 
-      console.log (resistance_history);
+      console.log ("acumulado de resistencias");
+      console.log (JSON.stringify(resistance_history.accumulated_mutations));
   
-      const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
-      const finalReportData = HIVResistanceCore.assignTargaSemaphore(StandordResponse,treatment_history);
+      //const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
+
+      //const finalReportData = HIVResistanceCore.assignTargaSemaphore(StandordResponse,treatment_history);
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
       document.getElementById("reportContent").classList.remove("d-none");
-    });*/
+    });
