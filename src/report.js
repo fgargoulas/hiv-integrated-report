@@ -81,6 +81,24 @@ document.addEventListener("DOMContentLoaded", async () => {
   
       const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
 
+      console.log("Respuesta de Stanford recibida. Continuando con el Semáforo...");
+
+      // Si la llamada falló o devolvió un objeto de error (manejo de errores)
+      if (stanfordResponse.error) {
+          // Manejar el error, mostrar un mensaje de fallo en la interfaz de usuario.
+          console.error("Error fatal en la conexión a Stanford. No se puede continuar.", stanfordResponse);
+          // [Llamar aquí a una función UX para mostrar error: UX_showError(stanfordResponse.message)]
+          return; 
+      }
+      // Paso 3 del Core (SÍNCRONO): Asignación del Semáforo
+      // La función SÍNCRONA asigna el semáforo al JSON de Stanford usando el historial de tratamientos activos.
+      const finalReportData = HIVResistanceCore.assignTargaSemaphore(
+          stanfordResponse, 
+          treatmentHistory
+      );
+
+      console.log("Datos finales listos para la visualización:", JSON.stringify(finalReportData));
+
       //const finalReportData = HIVResistanceCore.assignTargaSemaphore(StandordResponse,treatment_history);
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
