@@ -49,13 +49,17 @@ async function generateIntegratedReport() {
     // UX_mutationTable(resistanceModel); 
     // UX_stanfordReport(finalReportData); // Usa finalReportData que ya incluye el semáforo
     // UX_TARGAChart(treatmentHistory); 
+      // Mostrar contenido y ocultar loader
+      document.getElementById("loader").classList.add("d-none");
+      document.getElementById("reportContent").classList.remove("d-none");
+
 }
 
 // Iniciar la generación del informe (ejecución asíncrona)
 generateIntegratedReport();
 
 
-
+/*
 
 document.addEventListener("DOMContentLoaded", async () => {
       // Recuperar datos del sessionStorage
@@ -79,4 +83,4 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
       document.getElementById("reportContent").classList.remove("d-none");
-    });
+    });*/
