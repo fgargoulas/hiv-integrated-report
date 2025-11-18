@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.log ("acumulado de resistencias");
       console.log (JSON.stringify(resistance_history.accumulated_mutations));
   
-      //const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
+      const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
 
       //const finalReportData = HIVResistanceCore.assignTargaSemaphore(StandordResponse,treatment_history);
       // Mostrar contenido y ocultar loader
