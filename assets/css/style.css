@@ -2,3 +2,66 @@
   --bs-primary: #02c9c2;
   --bs-primary-rgb: 2, 201, 194;
 }
+
+.report-header {
+  padding: 0;
+  margin: 0;
+}
+
+.logo-stack {
+  margin: 0;
+  padding: 0;
+}
+
+.report-logo {
+  max-width: 300px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.patient-info {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.patient-label {
+  color: #6c757d;   /* similar a text-muted de Bootstrap */
+  font-weight: normal;
+  margin-right: 2px;
+}
+
+.patient-value {
+  font-weight: 600; /* equivalente a fw-bold */
+}
+
+.institution-info {
+  color: var(--bs-primary);
+  padding-top: 10px;
+}
+
+@media print {
+  .report-header {
+    page-break-inside: avoid;
+  }
+  .report-logo {
+    max-width: 150px;
+  }
+   #patientHeader,
+  .patient-info {
+    font-size: 0.75rem !important;  /* Ajusta el valor hasta que quede perfecto */
+  }
+
+  #patientbox_name {
+    font-size: 1rem !important;      /* Antes fs-4, aquí lo reducimos expresamente */
+  }
+
+  #patientbox_identifiers,
+  #patientbox_info_dem,
+  #patientbox_info_hiv,
+  #patientbox_info_hiv2,
+  #institution_info {
+    font-size: 0.8rem !important;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department_name": "Unidad Medicina Interna Infecciosas",
+  "center_name": "Hospital UNIR del TFG",
+  "center_address": "Ctra. noviembre, 2025 · 07000 Palma, Illes Balears",
+  "app_name": "HIV Integrated Report",
+  "logo_up":{
+    "img": "./assets/img/logo_corporativo_report.png",
+    "link":null
+  },
+   "logo_down":{
+    "img": "./assets/img/logo_standford.png",
+    "link":"https://hivdb.stanford.edu/hivdb/by-mutations"
+  },
+  "print": {
+    "show_footer": true,
+    "footer_text": "Informe clínico automatizado · Hospital UNIR del TFG"
+  }
+}

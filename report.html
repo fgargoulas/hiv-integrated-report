@@ -36,9 +36,31 @@
     </div>
 
     <!-- Contenido dinámico -->
-    <div id="reportContent" class="d-none">
+    <div id="reportContent" class="d-none bg-white border rounded p-3">
       <!-- Cabecera -->
-      <section id="patientHeader" class="mb-4"></section>
+    <section id="patientHeader" class="mb-4">
+      <header class="report-header d-flex justify-content-between align-items-start">
+        <!--  LOGOS -->
+          <div class="logo-stack d-flex flex-column align-items-start gap-1">
+            <a id="logo_up_link" href="#" class="logo-link" target="_blank" rel="noopener">
+              <img id="logo_up" class="img-fluid report-logo" alt="Logo corporativo">
+            </a>
+            <a id="logo_down_link" href="#" class="logo-link" target="_blank" rel="noopener">
+              <img id="logo_down" class="img-fluid report-logo" alt="Logo HIVDB">
+            </a>
+          </div>
+
+        <!-- DERECHA: INFO DEL PACIENTE -->
+        <div class="patient-info text-end align-self-center">
+          <div id="patientbox_name" class="fw-bold fs-4"></div>
+          <div id="patientbox_identifiers"  class="fs-5"></div>
+          <div id="patientbox_info_dem" class="fs-5"></div>
+          <div id="patientbox_info_hiv" class="fs-5"></div>
+          <div id="patientbox_info_hiv2" class="fs-4"></div>
+          <div id="institution_info" class="fs-5 institution-info"></div>
+        </div>
+      </header>
+</section>
 
       <!-- Tabla mutaciones -->
       <section id="mutationsSection" class="mb-5">
@@ -70,7 +92,7 @@
 
   <!-- Librerías propias -->
   <script src="./src/core/core.js"></script>
-  <script src="./src/ux/ux.js"></script>
+  <script src="./src/ui/ux.js"></script>
 
   <!-- Script principal de inicialización -->
    <script src="./src/report.js"></script>
