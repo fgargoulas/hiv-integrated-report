@@ -445,6 +445,15 @@
 
 				//solo se pliega en la carga inicial
 				if (info.recordsTotal == 0 && $("#dom_ctrl_loadCompleted.Form_DashBoard").val()==0) $("#res_caretDown").trigger("click");
+        //resaltamos fila del acumulado si hay
+        api.rows().every(function () {
+            var data = this.data();
+            var row  = this.node();
+
+            if (data.resistance_id === -1) {
+                $(row).addClass('highlight-row');
+            }
+        });
 
 			}
 		});

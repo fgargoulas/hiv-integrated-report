@@ -21,13 +21,6 @@
 
 </head>
 <body class="bg-light">
-  <!-- NAV / HEADER -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
-    <div class="container-fluid">
-      <a class="navbar-brand fw-bold" href="index.html">HIV Integrated Report</a>
-      <span class="navbar-text text-white small">Informe clínico automatizado</span>
-    </div>
-  </nav>
 
   <!-- MAIN CONTENT -->
   <main class="container my-4" id="reportContainer">
@@ -86,10 +79,10 @@
                   <table class="table table-bordered table-striped text-center" id="datatable-resStudies">
                     <thead>
                       <tr>
-                        <th width="10%" class="text-center">Fecha estudio</th>
-                        <th width="30%" class="text-center" id="mut-rt">Mutaciones TRANSCRIPTASA INVERSA</th>
-                        <th width="30%" class="text-center" id="mut-pt">Mutaciones PROTEASA</th>
-                        <th width="30%" class="text-center" id="mut-in">Mutaciones INTEGRASA</th>
+                        <th width="10%" class="text-center">Fecha</th>
+                        <th width="35%" class="text-center" id="mut-rt">Mutaciones TRANSCRIPTASA INVERSA</th>
+                        <th width="35%" class="text-center" id="mut-pt">Mutaciones PROTEASA</th>
+                        <th width="20%" class="text-center" id="mut-in">Mutaciones INTEGRASA</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -105,17 +98,61 @@
 
 
 
-      <!-- Sección Stanford -->
-      <section id="stanfordSection" class="mb-5">
-        <h4 class="text-primary mb-3">Interpretación Stanford HIVDB</h4>
-        <div id="stanfordResults"></div>
-      </section>
+      
+      <!-- Standford -->
+        <div class="row">
+            <div class="col-md-12">
+              <div class="card mb-4" id="panel_standford">
+
+                <!-- Encabezado -->
+                <div class="card-header d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0" id="targa_total">Informe Standford HIVDB </h5>
+
+                  <div class="card-actions">
+                    <a href="#" class="fas fa-angle-double-down" id="resShow"></a>
+                    <a href="#" class="fas fa-angle-double-up" id="resHide" style="display:none"></a>
+                    <a href="#" class="fa fa-caret-down" id="res_caretDown"></a>
+                  </div>
+                </div>
+
+                <!-- Cuerpo colapsable -->
+                <div class="card-body" id="standford_body">
+                 <div id="standfordContainer" style="height: 200px;"></div>
+                </div>
+
+              </div>
+              <!-- end: TargaChart -->
+            </div>
+        </div>
 
       <!-- Gráfica -->
-      <section id="chartSection" class="mb-5">
-        <h4 class="text-primary mb-3">Evolución de resistencias y tratamientos</h4>
-        <div id="chartContainer" style="height: 400px;"></div>
-      </section>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="card mb-4" id="panel_targaChart">
+
+                <!-- Encabezado -->
+                <div class="card-header d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0" id="targa_total">Evolución de tratamientos </h5>
+
+                  <div class="card-actions">
+                    <a href="#" class="fas fa-angle-double-down" id="resShow"></a>
+                    <a href="#" class="fas fa-angle-double-up" id="resHide" style="display:none"></a>
+                    <a href="#" class="fa fa-caret-down" id="res_caretDown"></a>
+                  </div>
+                </div>
+
+                <!-- Cuerpo colapsable -->
+                <div class="card-body" id="targaChart_body">
+                 <div id="targaChartContainer" style="height: 200px;"></div>
+                </div>
+
+              </div>
+              <!-- end: TargaChart -->
+            </div>
+        </div>
+      
+
+
     </div>
   </main>
 

@@ -49,6 +49,11 @@
   color:#000;
 }
 
+.highlight-row td {
+    border-top: 2px solid #ffc107 !important;
+    border-bottom: 2px solid #ffc107 !important;
+}
+
 @media print {
   .report-header {
     page-break-inside: avoid;
