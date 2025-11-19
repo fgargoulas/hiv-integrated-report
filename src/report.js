@@ -1,12 +1,18 @@
 
 
-  //cargar fichero configuración de la aplicacion, parámetros
+  //cargar fichero configuración y maestros de la aplicacion, parámetros
   async function loadAppConfig() {
         const response = await fetch("./src/app_config.json");
         if (!response.ok) throw new Error("No se pudo cargar el fichero de configuración");
         return await response.json();
   }
 
+ //cargar fichero configuración y maestros de la aplicacion, parámetros
+  async function loadMutDictionary() {
+        const response = await fetch("./src/ui/master_mutation_colors.json");
+        if (!response.ok) throw new Error("No se pudo cargar el maestro de mutaciones");
+        return await response.json();
+  }
 
 document.addEventListener("DOMContentLoaded", async () => {
      
@@ -15,7 +21,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         APP_CONFIG = await loadAppConfig();
         console.log("Configuración cargada:", APP_CONFIG);
       } catch (err) {
-        console.error("Error cargando configuración:", err);
+        console.error("Error cargando configuración app_config_json:", err);
+      }
+      //cargando objeto del maestro de mutaciones en objeto MASTER_MUTATION_COLORS
+      try {
+        MASTER_MUTATION_COLORS  = await loadMutDictionary();
+        console.log("Maestro mutaciones cargada:", MASTER_MUTATION_COLORS);
+      } catch (err) {
+        console.error("Error cargando maestro de mutaciones:", err);
       }
     
       // Recuperar datos del sessionStorage
@@ -41,7 +54,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       resistance_history = HIVResistanceCore.buildAccumulatedResistanceHistory(resistance_history);
 
       console.log ("acumulado de resistencias");
-      console.log (JSON.stringify(resistance_history.accumulated_mutations));
+      console.log (JSON.stringify(resistance_history));
+
+      //antes de llamar standford mostramos el acumulado de resistencias elementos UX
+      HIVResistanceUX.UX_mutationTable (resistance_history, MASTER_MUTATION_COLORS);
+
   
       const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
 
@@ -63,9 +80,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       console.log("Datos finales listos para la visualización:", JSON.stringify(finalReportData));
 
-      // Paso 4: Renderizado (Llamar a las funciones UX de la Fase 5)
     
-      // UX_mutationTable(resistanceModel); 
+      
+
       // UX_stanfordReport(finalReportData); // Usa finalReportData que ya incluye el semáforo
       // UX_TARGAChart(treatmentHistory); 
 

@@ -14,6 +14,8 @@
     <meta name="theme-color" content="#0d6efd">
     <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./vendor/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./vendor/datatables/datatables.min.css">
+    <link rel="stylesheet" href="./vendor/datatables/dataTables.bootstrap5.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     
 
@@ -57,16 +59,51 @@
           <div id="patientbox_info_dem" class="fs-5"></div>
           <div id="patientbox_info_hiv" class="fs-5"></div>
           <div id="patientbox_info_hiv2" class="fs-4"></div>
-          <div id="institution_info" class="fs-5 institution-info"></div>
+          <div id="institution_info" class="fs-5 text-info institution-info"></div>
         </div>
       </header>
 </section>
 
       <!-- Tabla mutaciones -->
-      <section id="mutationsSection" class="mb-5">
-        <h4 class="text-primary mb-3">Mutaciones acumuladas</h4>
-        <div id="mutationTable"></div>
-      </section>
+        <div class="row">
+            <div class="col-md-12">
+              <!-- start: Resistencias -->
+              <div class="card mb-4" id="panel_resStudies">
+
+                <!-- Encabezado -->
+                <div class="card-header d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0" id="res_total">Evolución de estudios de resistencia</h5>
+
+                  <div class="card-actions">
+                    <a href="#" class="fas fa-angle-double-down" id="resShow"></a>
+                    <a href="#" class="fas fa-angle-double-up" id="resHide" style="display:none"></a>
+                    <a href="#" class="fa fa-caret-down" id="res_caretDown"></a>
+                  </div>
+                </div>
+
+                <!-- Cuerpo colapsable -->
+                <div class="card-body" id="resStudies_body">
+                  <table class="table table-bordered table-striped text-center" id="datatable-resStudies">
+                    <thead>
+                      <tr>
+                        <th width="10%" class="text-center">Fecha estudio</th>
+                        <th width="30%" class="text-center" id="mut-rt">Mutaciones TRANSCRIPTASA INVERSA</th>
+                        <th width="30%" class="text-center" id="mut-pt">Mutaciones PROTEASA</th>
+                        <th width="30%" class="text-center" id="mut-in">Mutaciones INTEGRASA</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+              <!-- end: Resistencias -->
+            </div>
+          </div>
+
+
+
 
       <!-- Sección Stanford -->
       <section id="stanfordSection" class="mb-5">
@@ -89,7 +126,8 @@
 
   <!-- Bootstrap JS -->
   <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <!-- Datatables -->
+  <script src="./vendor/datatables/datatables.min.js"></script>
   <!-- Librerías propias -->
   <script src="./src/core/core.js"></script>
   <script src="./src/ui/ux.js"></script>

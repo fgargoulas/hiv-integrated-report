@@ -25,7 +25,7 @@
         "rt": [
           "K103N"
         ],
-        "in": []
+        "in": ["F121Y"]
       },
       "has_mutation": true
     },
@@ -67,7 +67,7 @@
         "rt": [
           "M184V"
         ],
-        "in": []
+        "in": ["G118R"]
       },
       "has_mutation": true
     },

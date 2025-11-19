@@ -37,8 +37,16 @@
 }
 
 .institution-info {
-  color: var(--bs-primary);
   padding-top: 10px;
+}
+
+.mutation{
+  display: inline-block;     /* necesario para permitir width fijo */
+  min-width: 50px;           /* o el ancho que quieras */
+  text-align: center;        /* centrado del texto dentro del badge */
+  font-weight: 600;          
+  padding: 0.35rem 0.5rem;   /* tamaño del badge */
+  color:#000;
 }
 
 @media print {
