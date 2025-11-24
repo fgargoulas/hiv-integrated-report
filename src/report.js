@@ -19,14 +19,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       //cargando objeto de configuración en objeto APP_CONFIG
       try {
         APP_CONFIG = await loadAppConfig();
-        console.log("Configuración cargada:", APP_CONFIG);
+        console.info("Configuración cargada:", APP_CONFIG);
       } catch (err) {
         console.error("Error cargando configuración app_config_json:", err);
       }
       //cargando objeto del maestro de mutaciones en objeto MASTER_MUTATION_COLORS
       try {
         MASTER_MUTATION_COLORS  = await loadMutDictionary();
-        console.log("Maestro mutaciones cargada:", MASTER_MUTATION_COLORS);
+        console.info("Maestro mutaciones cargada:", MASTER_MUTATION_COLORS);
       } catch (err) {
         console.error("Error cargando maestro de mutaciones:", err);
       }
@@ -36,9 +36,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       let resistance_history = JSON.parse(sessionStorage.getItem("resistance_history") || "[]"); 
       const treatment_history = JSON.parse(sessionStorage.getItem("treatment_history") || "[]");
 
-      console.log("pat_data:",JSON.stringify(pat_data));
-      console.log("resistance_history:",JSON.stringify(resistance_history));
-      console.log("treatment_history:",JSON.stringify(treatment_history));
 
       if (!pat_data || !resistance_history.length) {
         document.getElementById("loader").innerHTML = "<p class='text-danger'>No hay datos disponibles del paciente o no tiene estudios de resistencias asociados</p>";
@@ -53,16 +50,18 @@ document.addEventListener("DOMContentLoaded", async () => {
      //Primero se calculas resistencias acumuladas y se normaliza objeto resistance_history
       resistance_history = HIVResistanceCore.buildAccumulatedResistanceHistory(resistance_history);
 
-      console.log ("acumulado de resistencias");
-      console.log (JSON.stringify(resistance_history));
+
 
       //antes de llamar standford mostramos el acumulado de resistencias elementos UX
       HIVResistanceUX.UX_mutationTable (resistance_history, MASTER_MUTATION_COLORS);
 
+      //antes de llamar standford mostramos la gráfica de tratamiento
+      HIVResistanceUX.UX_targachart("chartARV",treatment_history,resistance_history);
+
+      console.log(resistance_history);
   
       const StandordResponse = await HIVResistanceCore.callSierraService(resistance_history.accumulated_mutations);
 
-      console.log("Respuesta de Stanford recibida. Continuando con el Semáforo...");
 
       // Si la llamada falló o devolvió un objeto de error (manejo de errores)
       if (StandordResponse.error) {
@@ -78,16 +77,22 @@ document.addEventListener("DOMContentLoaded", async () => {
           treatment_history
       );
 
-      console.log("Datos finales listos para la visualización:", JSON.stringify(finalReportData));
+      //console.info("Datos finales listos para la visualización:", JSON.stringify(finalReportData));
 
-    
-      
 
-      // UX_stanfordReport(finalReportData); // Usa finalReportData que ya incluye el semáforo
-      // UX_TARGAChart(treatmentHistory); 
+       HIVResistanceUX.UX_stanfordReport(finalReportData,resistance_history.accumulated_mutations); // Usa finalReportData que ya incluye el semáforo
 
 
       // Mostrar contenido y ocultar loader
       document.getElementById("loader").classList.add("d-none");
       document.getElementById("reportContent").classList.remove("d-none");
+
+      //activamos tootips de bootstrap
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      tooltipTriggerList.map(function(el) {
+          return new bootstrap.Tooltip(el);
+      });
+
     });
+
+

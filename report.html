@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./vendor/datatables/datatables.min.css">
     <link rel="stylesheet" href="./vendor/datatables/dataTables.bootstrap5.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/theme-standford_original.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
 
 </head>
@@ -66,12 +68,8 @@
                 <!-- Encabezado -->
                 <div class="card-header d-flex justify-content-between align-items-center">
                   <h5 class="mb-0" id="res_total">Evolución de estudios de resistencia</h5>
+                  <h4 class="mb-0 ms-auto"><span class="badge bg-primary ms-1" id="hiv_type">Tipo VIH</span> <span class="badge ms-1" id="hla_text">HLA</span> </h4>
 
-                  <div class="card-actions">
-                    <a href="#" class="fas fa-angle-double-down" id="resShow"></a>
-                    <a href="#" class="fas fa-angle-double-up" id="resHide" style="display:none"></a>
-                    <a href="#" class="fa fa-caret-down" id="res_caretDown"></a>
-                  </div>
                 </div>
 
                 <!-- Cuerpo colapsable -->
@@ -103,21 +101,19 @@
         <div class="row">
             <div class="col-md-12">
               <div class="card mb-4" id="panel_standford">
-
                 <!-- Encabezado -->
                 <div class="card-header d-flex justify-content-between align-items-center">
-                  <h5 class="mb-0" id="targa_total">Informe Standford HIVDB </h5>
+                  <h5 class="mb-0" id="targa_total">Informe Standford HIVDB  a fecha <span class="badge bg-secondary ms-1" id="request_date" title="Fecha de la solicitud de los datos a API de HIVDB de Standford" ></span></h5>
+                   <h4 class="mb-0 ms-auto">
+                    <span class="badge bg-info ms-1" id="version_info" title="Versión del algoritmo de HIVDB de Standford" data-bs-toggle='tooltip' data-bs-trigger='hover' data-bs-placement='right'></span>
+                   <span class="badge bg-info ms-1" id="program_info" title="Versión Programa"  data-bs-toggle='tooltip' data-bs-trigger='hover' data-bs-placement='right'></span>
+                  </h4>
 
-                  <div class="card-actions">
-                    <a href="#" class="fas fa-angle-double-down" id="resShow"></a>
-                    <a href="#" class="fas fa-angle-double-up" id="resHide" style="display:none"></a>
-                    <a href="#" class="fa fa-caret-down" id="res_caretDown"></a>
-                  </div>
                 </div>
-
                 <!-- Cuerpo colapsable -->
                 <div class="card-body" id="standford_body">
-                 <div id="standfordContainer" style="height: 200px;"></div>
+                 <span class="d-print-none fst-italic">* Recuerde todos los elementos marcados con asterisco ofrecen información importante adicional al pasar el ratón por encima.</span>
+                 <div id="PageStandfordReport"></div>
                 </div>
 
               </div>
@@ -133,17 +129,16 @@
                 <!-- Encabezado -->
                 <div class="card-header d-flex justify-content-between align-items-center">
                   <h5 class="mb-0" id="targa_total">Evolución de tratamientos </h5>
-
-                  <div class="card-actions">
-                    <a href="#" class="fas fa-angle-double-down" id="resShow"></a>
-                    <a href="#" class="fas fa-angle-double-up" id="resHide" style="display:none"></a>
-                    <a href="#" class="fa fa-caret-down" id="res_caretDown"></a>
-                  </div>
+                  <h5 class="mb-0 ms-auto">Total TARGA Histórico: <span class="badge bg-primary ms-1" id="TARGA_total"></span> 
+                  TARGA Activo:<span class="badge bg-warning ms-1" id="TARGA_active"></span> </h5>
                 </div>
 
                 <!-- Cuerpo colapsable -->
                 <div class="card-body" id="targaChart_body">
-                 <div id="targaChartContainer" style="height: 200px;"></div>
+                 <div id="targaChartContainer" >
+                    <div id="chartARV" class="chartdiv"  style="height: 300px;"></div>
+                    <div id="chartARV-print-div" ><img id="chartARV-print" alt="Timeline ARV" ></div>
+                 </div>
                 </div>
 
               </div>
@@ -165,6 +160,22 @@
   <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Datatables -->
   <script src="./vendor/datatables/datatables.min.js"></script>
+
+
+  
+
+<!-------------------------Page specific Vendor Functions graphics -------------------------->
+		<script src="./vendor/amcharts4/core.js"></script>
+		<script src="./vendor/amcharts4/charts.js"></script>
+		<script src="./vendor/amcharts4/themes/dataviz.js"></script>
+		<script src="./vendor/amcharts4/themes/animated.js"></script>
+		<script src="./vendor/amcharts4/themes/material.js"></script>
+		<script src="./vendor/amcharts4/plugins/timeline.js"></script>
+		<script src="./vendor/amcharts4/plugins/bullets.js"></script>
+		<script src="./vendor/amcharts4/plugins/overlapBuster.js"></script> 
+		
+		
+
   <!-- Librerías propias -->
   <script src="./src/core/core.js"></script>
   <script src="./src/ui/ux.js"></script>

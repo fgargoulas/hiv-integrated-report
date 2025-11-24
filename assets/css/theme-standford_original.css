@@ -1,0 +1,609 @@
+@charset "UTF-8";
+
+.mutation-APOBEC{
+  color:#e13333;
+  background-color: #fadfdf;
+  text-decoration: underline;
+  margin-right: 2px;
+}
+.mutation-unusual{
+  color:#cba800;
+  background-color: #ffefc1;
+  text-decoration: underline;
+  margin-right: 2px;
+}
+.mutation-DRM{
+  color:#369bd1;
+  font-weight: bold;
+  background-color: #dcecf7;
+  margin-right: 2px;
+}
+.dr-mutation-scores > h2, .dr-interpretation > h2, .gene-mutation-prevalence > h2, .sequence-summary > h2, .report-sequence-qa > h2, section.alg-comparison > h2 {
+  font-size: 1.1rem;
+  margin: 2rem 2rem 1rem;
+  padding: .5rem 1rem;
+  border: 1px solid #cba800;
+  background-color: #F1F0E9;
+  color: #1c1b1c;
+  font-weight: 500;
+  }
+
+.dr-mutation-scores, .dr-interpretation, .gene-mutation-prevalence, .sequence-summary, .report-sequence-qa, section.alg-comparison {
+  margin: 2rem 1rem; }
+
+:local(section.alg-comparison) .react-tabs {
+  -webkit-tap-highlight-color: transparent; }
+  :local(section.alg-comparison) .react-tabs__tab-list {
+    border-bottom: 1px solid #aaa;
+    margin: 0 0 10px;
+    padding: 0; }
+  :local(section.alg-comparison) .react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer; }
+    :local(section.alg-comparison) .react-tabs__tab--selected {
+      background: #fff;
+      border-color: #aaa;
+      color: black;
+      border-radius: 5px 5px 0 0; }
+    :local(section.alg-comparison) .react-tabs__tab--disabled {
+      color: GrayText;
+      cursor: default; }
+    :local(section.alg-comparison) .react-tabs__tab:focus {
+      box-shadow: 0 0 5px #0188fe;
+      border-color: #0188fe;
+      outline: none; }
+      :local(section.alg-comparison) .react-tabs__tab:focus:after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        left: -4px;
+        right: -4px;
+        bottom: -5px;
+        background: #fff; }
+  :local(section.alg-comparison) .react-tabs__tab-panel {
+    display: none; }
+    :local(section.alg-comparison) .react-tabs__tab-panel--selected {
+      display: block; }
+
+:local(section.alg-comparison) .react-tabs [role=tablist] {
+  border-bottom: 1px solid #969696;
+  background-color: #fffeff;
+  margin: 0; }
+
+:local(section.alg-comparison) .react-tabs [role=tab] {
+  position: relative;
+  font-weight: 500; }
+
+:local(section.alg-comparison) .react-tabs [role=tab][aria-selected=true] {
+  border-color: #969696;
+  background-color: #e3e3e3; }
+
+:local(section.alg-comparison) .react-tabs [role=tabpanel] {
+  padding: 1rem;
+  border-left: 1px solid #969696;
+  border-right: 1px solid #969696;
+  border-bottom: 1px solid #969696; }
+
+:local(section.alg-comparison) .react-tabs [role=tab] > a {
+  color: #1c1b1c;
+  text-decoration: none; }
+
+:local(section.alg-comparison) .react-tabs [role=tab] > a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-control {
+    background-color: #fffeff;
+    border-radius: 0;
+    border-color: #bbbbbb;
+    overflow: visible; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-menu {
+    text-align: left;
+    border: 0;
+    max-height: 24rem;
+    background-color: #f4f4f4; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-option.is-selected {
+    background-color: #d32424;
+    color: #fffeff; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-option:hover {
+    background-color: #8c1515;
+    color: #fffeff; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-arrow {
+    width: 25px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #8c1515;
+    align-items: center;
+    margin-top: 0;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: none; }
+  .sequence-summary .desc-list .has-dropdown :global .is-open .Dropdown-arrow {
+    background-color: #d32424; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-control:hover .Dropdown-arrow {
+    background-color: #d32424; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-arrow:before {
+    content: " ";
+    position: absolute;
+    background-color: rgba(255, 254, 255, 0.2);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-arrow:after {
+    content: "▾";
+    color: #fffeff; }
+
+.sequence-summary .desc-list .has-dropdown :global .Dropdown-control {
+  padding: 0 32px 0 12px; }
+
+.sequence-summary .desc-list .has-dropdown :global .Dropdown-option {
+  padding: 2px 10px; }
+
+@media print {
+  .link-style {
+    color: black;
+    text-decoration: none; } }
+
+.icon-before-text {
+  position: relative;
+  top: -1px; }
+
+.dr-mutation-scores {
+  position: relative; }
+
+ul.subtype-details {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.5rem; }
+  ul.subtype-details > li.best-match {
+    font-weight: 600; }
+
+.dr-mutation-scores .griddle-container {
+  margin: 1rem 2rem; }
+
+.dr-mutation-scores .griddle-body th:first-child {
+  width: 8rem; }
+
+.dr-mutation-scores .griddle-body th[data-title="mutations"]:hover {
+  cursor: not-allowed;
+  background-color: #ebe8db; }
+
+.dr-interpretation {
+  position: relative; }
+
+.gene-mutation-prevalence .expand-btn {
+  width: 1em;
+  height: 1.5em;
+  vertical-align: top;
+  margin-right: .5rem; }
+
+.gene-mutation-prevalence .mixture-mut {
+  display: inline-block; }
+
+.gene-mutation-prevalence .griddle-container {
+  margin: 1rem 2rem; }
+
+.gene-mutation-prevalence .griddle-body table {
+  overflow: hidden;
+  width: 100%; }
+
+.gene-mutation-prevalence .griddle-body th > *, .gene-mutation-prevalence .griddle-body td > * {
+  position: relative;
+  z-index: 1; }
+
+.gene-mutation-prevalence .griddle-body th {
+  width: auto;
+  box-sizing: border-box;
+  padding-left: .8rem;
+  padding-right: .8rem;
+  position: relative; }
+  .gene-mutation-prevalence .griddle-body th:hover {
+    cursor: not-allowed;
+    background-color: #ebe8db; }
+  .gene-mutation-prevalence .griddle-body th::before {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    width: 800%;
+    z-index: 2; }
+  .gene-mutation-prevalence .griddle-body th[data-title="naiveCRF02_AG"]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -.25rem;
+    width: .5rem;
+    height: 15000px;
+    background-color: #fffeff;
+    border-left: 1px solid #969696;
+    border-right: 1px solid #969696;
+    z-index: 3; }
+  .gene-mutation-prevalence .griddle-body th[data-title="mutation"] {
+    width: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .gene-mutation-prevalence .griddle-body th[data-title="nas"] {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .gene-mutation-prevalence .griddle-body th.prevalence-data small {
+    font-size: .6rem; }
+  .gene-mutation-prevalence .griddle-body th > * {
+    display: inline-block;
+    padding-top: 2rem; }
+
+.gene-mutation-prevalence .griddle-body tbody > tr {
+  white-space: pre; }
+
+.gene-mutation-prevalence .griddle-body td {
+  padding-left: .8rem;
+  padding-right: .8rem; }
+  .gene-mutation-prevalence .griddle-body td.prevalence-data {
+    width: auto;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: .5rem;
+    padding-right: .5rem; }
+    .gene-mutation-prevalence .griddle-body td.prevalence-data:hover::after {
+      content: "";
+      position: absolute;
+      background-color: rgba(245, 204, 0, 0.7);
+      left: 0;
+      top: -5000px;
+      height: 10000px;
+      width: 100%;
+      z-index: 0; }
+
+.gene-mutation-prevalence .griddle-body tbody > tr.child-row td:first-child {
+  text-indent: 1.4rem; }
+
+.gene-mutation-prevalence[data-drug-class="PI"] .griddle-body th[data-title="naiveA"]::before {
+  content: "PI Naive Persons"; }
+
+.gene-mutation-prevalence[data-drug-class="PI"] .griddle-body th[data-title="treatedA"]::before {
+  content: "PI Treated Persons"; }
+
+.gene-mutation-prevalence[data-drug-class="RTI"] .griddle-body th[data-title="naiveA"]::before {
+  content: "RTI Naive Persons"; }
+
+.gene-mutation-prevalence[data-drug-class="RTI"] .griddle-body th[data-title="treatedA"]::before {
+  content: "RTI Treated Persons"; }
+
+.gene-mutation-prevalence[data-drug-class="INSTI"] .griddle-body th[data-title="naiveA"]::before {
+  content: "INSTI Naive Persons"; }
+
+.gene-mutation-prevalence[data-drug-class="INSTI"] .griddle-body th[data-title="treatedA"]::before {
+  content: "INSTI Treated Persons"; }
+
+@media only screen and (max-width: 855px) {
+  .buttons, .buttons-right {
+    float: none;
+    margin-bottom: .5rem; } }
+
+@media print {
+  .buttons, .buttons-right {
+    display: none; } }
+
+.buttons > * {
+  margin-right: .5rem; }
+
+.buttons-right {
+  float: right; }
+  .buttons-right > * {
+    margin-left: .5rem; }
+
+.sequence-summary .desc-list dl {
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: visible; }
+
+.sequence-summary .desc-list dt {
+  clear: left;
+  float: left;
+  width: 18rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0; }
+
+.sequence-summary .desc-list dd {
+  padding: 0;
+  margin: 0 0 0 18rem; }
+
+@media only screen and (max-width: 640px) {
+  .sequence-summary .desc-list dt {
+    float: none; }
+  .sequence-summary .desc-list dd {
+    margin-left: 2rem;
+    margin-bottom: .5rem; } }
+
+.sequence-summary .desc-list .has-dropdown :global {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem; }
+  .sequence-summary .desc-list .has-dropdown :global .Dropdown-root {
+    width: 6rem; }
+
+.sequence-summary .pretty-pairwise h3 {
+  font-size: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  display: inline-block; }
+
+.sequence-summary .pretty-pairwise .instruction {
+  font-size: .8rem;
+  color: #969696; }
+
+.sequence-summary .pretty-pairwise pre {
+  margin-top: .24rem;
+  margin-bottom: 0;
+  overflow-x: auto;
+  padding: .5rem;
+  background-color: #e3e3e3; }
+  .sequence-summary .pretty-pairwise pre > div::after {
+    content: ""; }
+  .sequence-summary .pretty-pairwise pre > div > span {
+    display: inline-block;
+    width: 3rem;
+    text-align: center; }
+
+.report-sequence-qa h3 {
+  font-size: 1rem;
+  margin-top: .24rem;
+  margin-bottom: 0; }
+
+.report-sequence-qa .tooltip-label {
+  white-space: nowrap; }
+
+:local(section.alg-comparison) .react-tabs [role=tabpanel] {
+  background-color: #fffeff; }
+
+:local(section.alg-comparison) .react-tabs [role=tab][aria-selected=true] {
+  background-color: #fffeff; }
+
+.validation-report > ul {
+  margin: 2rem 0; }
+  .validation-report > ul > li {
+    margin: .5rem 0;
+    position: relative; }
+    .validation-report > ul > li:hover::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      opacity: .1;
+      left: 0;
+      top: 0; }
+
+.validation-report .level-critical {
+  background-color: #1c1b1c;
+  color: #fffeff; }
+
+.validation-report .level-severe-warning {
+  background-color: transparent;
+  color: #ca402b; }
+
+.validation-report .level-warning {
+  background-color: transparent;
+  color: #ca402b; }
+
+.validation-report .level-note {
+  background-color: transparent;
+  color: #1c1b1c; }
+
+.validation-report .placeholder {
+  margin-left: 3rem;
+  font-style: italic;
+  background-color: transparent;
+  color: #969696; }
+
+@media print {
+  .validation-report .level-severe-warning {
+    text-decoration: underline; }
+  .validation-report .level-critical, .validation-report .level-severe-warning, .validation-report .level-warning, .validation-report .level-note {
+    background: white;
+    color: black; } }
+
+.dr-report-mutation-by-types dl {
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-left:2rem;
+  margin-bottom: 0;
+  overflow: hidden; }
+
+.dr-report-mutation-by-types dt {
+  clear: left;
+  float: left;
+  width: 30%;
+  font-weight: 500;
+  padding: 0;
+  margin: 0; }
+
+.dr-report-mutation-by-types dd {
+  padding: 0;
+  margin: 0 0 0 18rem; }
+
+@media only screen and (max-width: 640px) {
+  .dr-report-mutation-by-types dt {
+    float: none; }
+  .dr-report-mutation-by-types dd {
+    margin-left: 2rem;
+    margin-bottom: .5rem; } }
+
+.dr-report-comment-by-types {
+  border: 1px solid #969696;
+  box-sizing: border-box;
+  background-color: #e3e3e3;
+  margin: 1.5rem 2rem 1.5rem;
+  padding: 1rem; 
+}
+  @media print {
+    .dr-report-comment-by-types {
+      background-color: white; } }
+  .dr-report-comment-by-types .title {
+    margin-bottom: 1rem;
+    font-weight: 700; }
+  .dr-report-comment-by-types > dl {
+    margin: 0;
+    width: 100% !important;
+    line-height: 1.5;
+    overflow: hidden; }
+    .dr-report-comment-by-types > dl > dt {
+      font-weight: 700;
+      width: 100% !important;
+      padding: 0;
+      margin: 0; }
+    .dr-report-comment-by-types > dl > dd {
+      font-weight: normal !important;
+      padding: 2px;
+      margin: .5rem 2rem 1rem;
+
+     }
+      .dr-report-comment-by-types > dl > dd ul {
+        margin: .5rem 0 1rem; }
+
+.dr-levels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;           /* separación entre tablas */
+  }
+  .dr-levels table.dr-level {
+    flex: 1 1 calc(50% - 1.5rem); /* dos columnas en pantallas anchas */
+    margin: 0;                    /* quitamos margin-left y margin-right */
+    border-collapse: collapse;
+    line-height: 1.5;
+    border-spacing: 0;
+    width: 100%;                  /* ancho completo dentro de su columna */
+  }
+
+    .dr-levels table.dr-level caption {
+      caption-side: top !important;
+      font-weight: 700;
+      border-bottom: 1px solid #969696;
+      margin: 1rem auto .5rem; }
+    .dr-levels table.dr-level tr:hover {
+      background-color: rgba(245, 204, 0, 0.7); }
+    .dr-levels table.dr-level th {
+      box-sizing: content-box;
+      padding: 0 0 0 1rem;
+      width: 18rem;
+      text-align: left; }
+    .dr-levels table.dr-level td {
+      box-sizing: content-box;
+      padding: 0 1rem 0 0; }
+
+.alg-drugclass-comparison-container .instruction {
+  color: #969696; }
+  .alg-drugclass-comparison-container .instruction > button {
+    float: right; }
+
+.alg-drugclass-comparison-container .alg-drugclass-comparison {
+  overflow: auto;
+  position: relative; }
+
+.alg-drugclass-comparison-container .alg-alg-name {
+  width: 100%;
+  height: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5rem; }
+
+.alg-drugclass-comparison-container .alg-drug-name {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: center;
+  transform: rotate(270deg); }
+
+.alg-drugclass-comparison-container .alg-comparison-card {
+  padding: .5rem 1rem; }
+
+.alg-drugclass-comparison-container.expanded {
+  background-color: #fffeff;
+  position: absolute;
+  z-index: 1000;
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+  left: 0;
+  top: 0; }
+  .alg-drugclass-comparison-container.expanded table.alg-comparison-table {
+    width: 100%; }
+
+.alg-drugclass-comparison-container table.alg-comparison-table {
+  margin-top: .75rem;
+  margin-bottom: .75rem; }
+  .alg-drugclass-comparison-container table.alg-comparison-table > thead > tr > th {
+    height: 2rem;
+    line-height: 2rem;
+    box-sizing: border-box; }
+    .alg-drugclass-comparison-container table.alg-comparison-table > thead > tr > th:first-child {
+      min-width: 1.5rem; }
+    .alg-drugclass-comparison-container table.alg-comparison-table > thead > tr > th:not(:first-child) {
+      background-color: #e3e3e3;
+      min-width: 24rem; }
+  .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > th {
+    width: 2rem;
+    box-sizing: border-box;
+    background-color: #e3e3e3; }
+  .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > td {
+    background-color: #e3e3e3; }
+    .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > td.cell-diff {
+      background-color: #f7ddd9; }
+    .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > td .alg-comparison-card dl {
+      line-height: 1.5;
+      margin-top: 0;
+      margin-bottom: 0;
+      overflow: hidden; }
+    .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > td .alg-comparison-card dt {
+      clear: left;
+      float: left;
+      width: 4.2em;
+      font-weight: 500;
+      padding: 0;
+      margin: 0; }
+    .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > td .alg-comparison-card dd {
+      padding: 0;
+      margin: 0 0 0 4.2em; }
+    @media only screen and (max-width: 1024px) {
+      .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > td .alg-comparison-card dt {
+        float: none; }
+      .alg-drugclass-comparison-container table.alg-comparison-table > tbody > tr > td .alg-comparison-card dd {
+        margin-left: 2rem;
+        margin-bottom: .5rem; } }
+
+.footnote {
+  font-size: 0.8rem;
+  line-height: 1.5; }
+
+.header-annotation {
+  position: absolute;
+  right: 0;
+  margin-top: -40px; }
+
+  @media print {
+    .header-annotation {
+      margin-top: -26px; 
+    }
+  }
+
+  .PageStandfordReport{
+	margin-top: -20px !important;
+}

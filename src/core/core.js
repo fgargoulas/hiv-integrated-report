@@ -77,7 +77,7 @@ const HIVResistanceCore = {
     // Construcción del body GraphQL
     const json_stanfordRequest = {
         operationName: "MutationsAnalysis",
-        query:"query MutationsAnalysis($mutations: [String]!, $algorithm: ASIAlgorithm) {\n  currentVersion {\n    text\n    publishDate\n  }\n  currentProgramVersion {\n    text\n    publishDate\n  }\n  mutationsAnalysis(mutations: $mutations) {\n    ...HIVDBReportByMutations\n  }\n}\n\nfragment HIVDBReportByMutations on MutationsAnalysis {\n  validationResults {\n    level\n    message\n  }\n  drugResistance(algorithm: $algorithm) {\n    algorithm {\n      family\n      version\n      publishDate\n    }\n    gene {\n      name\n      drugClasses {\n        name\n        fullName\n      }\n    }\n    levels: drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n        fullName\n      }\n      text\n    }\n    mutationsByTypes {\n      mutationType\n      mutations {\n        text\n        isUnsequenced\n      }\n    }\n    commentsByTypes {\n      commentType\n      comments {\n        name\n        text\n        highlightText\n      }\n    }\n    drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n      }\n      score\n      partialScores {\n        mutations {\n          text\n        }\n        score\n      }\n    }\n  }\n}\n",
+        query:"query MutationsAnalysis($mutations: [String]!, $algorithm: ASIAlgorithm) {\n  currentVersion {\n    text\n    publishDate\n  }\n  currentProgramVersion {\n    text\n    publishDate\n  }\n  mutationsAnalysis(mutations: $mutations) {\n    ...HIVDBReportByMutations\n  }\n}\n\nfragment HIVDBReportByMutations on MutationsAnalysis {\n  validationResults {\n    level\n    message\n  }\n  drugResistance(algorithm: $algorithm) {\n    algorithm {\n      family\n      version\n      publishDate\n    }\n    gene {\n      name\n      drugClasses {\n        name\n        fullName\n      }\n    }\n    levels: drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n        fullName\n      }\n      text\n    }\n    mutationsByTypes {\n      mutationType\n      mutations {\n        text\n        isUnsequenced\n  isUnusual\n isDRM\n isApobecMutation\n     }\n    }\n    commentsByTypes {\n      commentType\n      comments {\n        name\n        text\n        highlightText\n      }\n    }\n    drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n      }\n      score\n      partialScores {\n        mutations {\n          text\n        }\n        score\n      }\n    }\n  }\n}\n",
         variables: { mutations: mutStandford }
     };
 
@@ -91,7 +91,6 @@ const HIVResistanceCore = {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const data = await response.json();
-      console.log(JSON.stringify(data))
       return data; // devuelve directamente la respuesta de Stanford
 
     } catch (err) {
@@ -109,12 +108,6 @@ const HIVResistanceCore = {
    * @returns {Object} stanfordResponse - El JSON de Stanford modificado y enriquecido.
    */
   assignTargaSemaphore(stanfordResponse, treatmentHistory) {
-
-    console.log("assignTargaSemaphore: datos de entrada stanfordResponse")
-    console.log(JSON.stringify(stanfordResponse))
-    console.log("assignTargaSemaphore: datos de entrada stanfordResponse")
-    console.log(JSON.stringify(treatmentHistory))
-
 
     if (!stanfordResponse || !treatmentHistory || stanfordResponse.error) {
         console.error("assignTargaSemaphore: Datos de entrada inválidos.");
@@ -217,8 +210,6 @@ const HIVResistanceCore = {
         }
     }
 
-    console.log("stanfordResponse + semaforo");
-    console.log(JSON.stringify(stanfordResponse));
     return stanfordResponse;
   }
 

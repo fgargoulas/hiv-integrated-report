@@ -30,6 +30,7 @@
   color: #6c757d;   /* similar a text-muted de Bootstrap */
   font-weight: normal;
   margin-right: 2px;
+  margin-bottom:2px; 
 }
 
 .patient-value {
@@ -54,7 +55,49 @@
     border-bottom: 2px solid #ffc107 !important;
 }
 
+ #chartARV-print-div {
+  display: none;
+ }
+
 @media print {
+
+  /* Quitar márgenes y limitar ancho máximo */
+  #reportContainer {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Opcional: eliminar márgenes verticales */
+  body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* También debemos forzar que los .row y .col no añadan padding innecesario */
+  .row, .col, .col-md-12 {
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Bootstrap mete padding horizontal en .container → lo eliminamos */
+  .container {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #panel_targaChart,
+  .dr-report-comment-by-types {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  
+
+
   .report-header {
     page-break-inside: avoid;
   }
