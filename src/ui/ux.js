@@ -310,40 +310,6 @@
   }
 
 
-  // -------------------------------------------------
-  // Exportar el chartARV en imagen para su mejor impresión
-  // -------------------------------------------------
-  function prepareChartARVforPrint(chart) {
-    if (!chart || chart.isDisposed()) {
-        console.warn("No se puede exportar: chart no existe o está disposed");
-        return;
-    }
-
-    if (!chart.exporting) {
-        console.warn("Chart sin módulo exporting cargado");
-        return;
-    }
-
-    console.log("Exportando chartARV…");
-
-    chart.exporting.getImage("png").then(function(imgData) {
-        let url = typeof imgData === "string"
-            ? imgData
-            : (imgData.data || imgData.uri || imgData.url);
-
-        if (!url) {
-            console.error("Imagen vacía o inválida");
-            return;
-        }
-
-        document.getElementById("chartARV-print").src = url;
-
-        console.log("Línea temporal ARV exportada correctamente");
-
-    }).catch(function(err) {
-        console.error("Error en exporting.getImage:", err);
-    });
-}
 
   // -------------------------------------------------
   // Construye el tooltip a partir de la información de mutaciones.
