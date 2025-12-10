@@ -33,7 +33,7 @@ Este trabajo plantea el desarrollo de una API en JavaScript con el objetivo de i
 
 ## 🌐 Demo online
 
-🔗 **[Ver demostración en GitHub Pages](https://freyagargoulas.github.io/hiv-integrated-report/)**
+🔗 **[Ver demostración en GitHub Pages](https://fgargoulas.github.io/hiv-integrated-report/)**
 
 ---
 
