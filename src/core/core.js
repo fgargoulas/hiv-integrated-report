@@ -74,7 +74,7 @@ const HIVResistanceCore = {
             : [])
         ];
 
-    // Construcción del body GraphQL
+    // Construcción de la consulta "query" GraphQL teniendo en cuenta los refinamientos isUnsequenced  isUnusual isDRM para poder posteriormente visualizarlos
     const json_stanfordRequest = {
         operationName: "MutationsAnalysis",
         query:"query MutationsAnalysis($mutations: [String]!, $algorithm: ASIAlgorithm) {\n  currentVersion {\n    text\n    publishDate\n  }\n  currentProgramVersion {\n    text\n    publishDate\n  }\n  mutationsAnalysis(mutations: $mutations) {\n    ...HIVDBReportByMutations\n  }\n}\n\nfragment HIVDBReportByMutations on MutationsAnalysis {\n  validationResults {\n    level\n    message\n  }\n  drugResistance(algorithm: $algorithm) {\n    algorithm {\n      family\n      version\n      publishDate\n    }\n    gene {\n      name\n      drugClasses {\n        name\n        fullName\n      }\n    }\n    levels: drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n        fullName\n      }\n      text\n    }\n    mutationsByTypes {\n      mutationType\n      mutations {\n        text\n        isUnsequenced\n  isUnusual\n isDRM\n isApobecMutation\n     }\n    }\n    commentsByTypes {\n      commentType\n      comments {\n        name\n        text\n        highlightText\n      }\n    }\n    drugScores {\n      drugClass {\n        name\n      }\n      drug {\n        name\n        displayAbbr\n      }\n      score\n      partialScores {\n        mutations {\n          text\n        }\n        score\n      }\n    }\n  }\n}\n",

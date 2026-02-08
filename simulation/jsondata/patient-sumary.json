@@ -92,12 +92,12 @@
   {
     "patient_id": "2526",
     "full_name": "Carlos Sánchez Sánchez",
-    "case_type": "Caso Basal <=3mut"
+    "case_type": "Caso Basal >3mut"
   },
   {
     "patient_id": "2419",
     "full_name": "Juan García Pérez",
-    "case_type": "Caso Basal <=3mut"
+    "case_type": "Caso Basal >3mut"
   },
   {
     "patient_id": "6052",
@@ -147,7 +147,7 @@
   {
     "patient_id": "2334",
     "full_name": "Antonio Martínez Sánchez",
-    "case_type": "Caso Complejo >3mut"
+    "case_type": "Caso Complejo <=3mut"
   },
   {
     "patient_id": "2241",
@@ -182,7 +182,7 @@
   {
     "patient_id": "5849",
     "full_name": "José Martínez Ramírez",
-    "case_type": "Caso Complejo <=3mut"
+    "case_type": "Caso Complejo >3mut"
   },
   {
     "patient_id": "5583",
@@ -207,7 +207,7 @@
   {
     "patient_id": "1867",
     "full_name": "Antonio García Pérez",
-    "case_type": "Caso Complejo <=3mut"
+    "case_type": "Caso Complejo >3mut"
   },
   {
     "patient_id": "631",

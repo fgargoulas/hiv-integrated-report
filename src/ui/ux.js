@@ -1057,11 +1057,10 @@
                             mut_th.append(objtitle);
                             mut_td.append(level);
                        
-                            //semaforo TARGA si el fármaco está res
+                            //semaforo TARGA si el fármaco está activo
                             if (OBJLevel.isActiveTreatment){
                                         var presc_icon="<h4><span class='badge ms-1' style='background-color:"+OBJLevel.color+"'  data-bs-toggle='tooltip' data-bs-trigger='hover' data-bs-placement='right' data-bs-html='true' title='Actualmente tiene algún fármaco prescrito con este principio Activo. Medicación activa: <b> " + OBJLevel.targa.join(", ")+"</b>'><i class='fas fa-pills ml-xs'></i> "+"Prescrito *</span></h4>"
                                         mut_td_inf.insertAdjacentHTML("afterbegin", presc_icon);   
-                                        //mut_td_inf.style="background-color:"+OBJLevel.color;                                 
                             }
 
                             mut_tr.append(mut_th);
