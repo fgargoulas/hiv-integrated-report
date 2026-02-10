@@ -46,7 +46,6 @@
       "test_type": "genotypic",
       "mutations": {
         "pr": [
-          "L10I",
           "L10I"
         ],
         "rt": [],
